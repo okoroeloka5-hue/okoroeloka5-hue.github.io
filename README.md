@@ -42,6 +42,4 @@ The portfolio distinguishes implemented work, partial builds, simulation, design
 - Cursa Embedded C, MindLuster RTOS and other supplied certificate materials.
 - EEDC SIWES completion letter, GridPulse engineering notes and detailed editable portfolio dossier.
 
-## Privacy note
 
-The site displays the email addresses, professional links and WeChat QR supplied for publication. The phone number and residential street address are intentionally omitted. Review public information before publishing.
