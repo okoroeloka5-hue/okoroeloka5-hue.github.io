@@ -1,45 +1,46 @@
-# Okoro Chukwueloka — Engineering Portfolio
 
-A responsive, static, single-page engineering and research portfolio for postgraduate scholarship and research-supervision applications. It uses plain HTML, CSS and JavaScript; no framework, build step, database or paid hosting service is required.
+Okoro Chukwueloka — Engineering Portfolio
 
-## Live address after publication
+A responsive, static, single-page engineering and research portfolio for postgraduate scholarship and research-supervision applications. It uses plain HTML, CSS, and JavaScript; no framework, build step, database, or paid hosting service is required.
 
-**https://okoroeloka5-hue.github.io/**
+Live Address
 
-This package is configured for the GitHub repository you have already created: **`okoroeloka5-hue.github.io`** under **`okoroeloka5-hue`**. It is a GitHub *user site*, so `index.html` must sit directly in the repository root.
+The live site is published at:
+github.io
+This package is configured for the GitHub user site repository okoroeloka5-hue.github.io under the user account okoroeloka5-hue. The index.html file must sit directly in the repository root for the site to render correctly.
 
-## Publish this package to the repository in your screenshot
+Project Structure
 
-1. Download and extract `Okoro_Chukwueloka_GitHub_Portfolio.zip` on your computer.
-2. Open the extracted folder. You should see `index.html`, `styles.css`, `script.js`, `content.js`, `assets`, `docs`, and other files.
-3. Open the existing GitHub repository **`okoroeloka5-hue.github.io`**.
-4. Select **Add file → Upload files**.
-5. Drag the *contents* of the extracted folder into the upload area. Do not upload the ZIP itself, and do not upload the outer folder as one nested directory. `index.html` must appear at the top level alongside `styles.css`.
-6. Scroll down, enter a commit message such as `Publish portfolio website`, and click **Commit changes**.
-7. In the repository, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose branch **`main`** and folder **`/(root)`**, then save.
-8. Visit **https://okoroeloka5-hue.github.io/** after Pages finishes deployment.
+The repository contains the following core files and directories:
+• index.html - The primary entry point and published homepage for the portfolio site.
+• preview.html - A self-contained visual preview file for quick offline viewing.
+• styles.css - Global stylesheets containing layout and presentation styling.
+• script.js & content.js - JavaScript configuration managing dynamic site behavior.
+• assets/ - Directory containing project images, photo evidence, and credential graphics.
+• docs/ - Directory containing PDF/DOCX downloads, including academic CV versions.
 
-The `README.md` already in your repository can be replaced by the README in this package. If GitHub asks about an existing file, choose the replacement/update option. The website does not depend on the README to run.
+Local Preview
 
-## Preview locally
+To view the portfolio locally, extract the package archive onto your computer and open index.html directly in any modern web browser.
 
-Open `index.html` in a browser after extracting the ZIP. The `preview.html` file is a self-contained visual preview; use `index.html` for the actual published site.
+Deployment Instructions
 
-## Edit through conversation
+1. Open your repository okoroeloka5-hue.github.io on GitHub.
+2. Select Add file ➔ Upload files.
+3. Drag the individual files and subfolders (index.html, styles.css, assets, etc.) directly from your local extracted folder into the browser window. Do not upload the ZIP archive itself or the outer root folder.
+4. Scroll down, enter a commit message (e.g., Publish portfolio website), and click Commit changes.
+5. Navigate to Settings ➔ Pages in your repository layout.
+6. Under Build and deployment, set the Source to Deploy from a branch, select the main branch, set the folder to /(root), and click Save.
 
-You do not need to edit code. Send corrections in ordinary language and the updated files can be generated for you. The `EDITING-GUIDE.md` is a reference for the project structure, not a requirement to edit it yourself.
+Content Authenticity & Project Status
 
-## Project status and accuracy
+The portfolio documents engineering progress transparently by explicitly separating completed milestones from ongoing work.
+• Maturity Records: Simulated, calculated, and physical validation metrics are documented distinctively. Planned components are never stated as physically tested items.
+• GridPulse-RESTORE Status: Identified accurately as an in-progress architectural case study based on field requirements derived during EEDC industrial attachment training.
 
-The portfolio distinguishes implemented work, partial builds, simulation, design-only subsystems and planned validation. It does not invent accuracy figures, calibration results, measured trip times or hardware validation. GridPulse-RESTORE remains an in-progress case study; the site does not invent a public repository link for it.
+Included Evidence & Ported Artifacts
 
-## Included evidence
-
-- Portrait and WeChat QR contact image.
-- Updated two-page CSC CV in DOCX and PDF formats; CV section links point to this user-site root and its section anchors.
-- Skill-Up Imo Cohort 2 Web Application Development winner (2022) award photograph and SU SchoolGroups service-recognition photographs.
-- PowerScope, VibeGuard, GridPulse, ESP32-C3 and STM32F103 visual evidence galleries.
-- Cursa Embedded C, MindLuster RTOS and other supplied certificate materials.
-- EEDC SIWES completion letter, GridPulse engineering notes and detailed editable portfolio dossier.
-
-
+• Academic Curriculum Vitae: Two-page CSC-aligned CV offered in both editable DOCX and printable PDF formats with internal anchor mapping matching this portfolio.
+• Project Artifacts: Schematic overviews, component plans, firmware blocks, and visual capture matrices covering PowerScope, VibeGuard, GridPulse, ESP32-C3, and STM32F103 designs.
+• Verified Credentials: Digital badge images and visual copies corresponding to the Cursa Embedded C and MindLuster RTOS certifications.
+• Achievements & Service: Photographic documentation validating the Skill-Up Imo Cohort 2 award and Scripture Union Campus Fellowship institutional leadership commendations.
