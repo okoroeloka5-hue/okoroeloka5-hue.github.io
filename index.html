@@ -1,273 +1,623 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#e7f0e7">
-  <meta name="description" content="Engineering portfolio of Okoro Chukwueloka — embedded systems, electronic instrumentation, edge diagnostics and cyber-physical power systems.">
-  <meta property="og:title" content="Okoro Chukwueloka | Embedded Systems & Electronic Engineering">
-  <meta property="og:description" content="A project-led engineering portfolio covering PowerScope, VibeGuard, GridPulse-RESTORE, ESP32-C3 environmental logging and STM32 PCB design.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://okoroeloka5-hue.github.io/">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf5ee">
+  <meta name="description" content="Okoro Chukwueloka's engineering portfolio: embedded instruments, edge diagnostics, cyber-physical power systems, PCB design and research experience.">
+  <meta property="og:title" content="Okoro Chukwueloka | Engineering & Research Portfolio">
+  <meta property="og:description" content="From instrumentation to edge diagnostics and supervised power-system restoration.">
+  <meta property="og:type" content="website"><meta property="og:url" content="https://okoroeloka5-hue.github.io/">
   <link rel="canonical" href="https://okoroeloka5-hue.github.io/">
-  <title>Okoro Chukwueloka | Embedded Systems & Electronic Engineering</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="content.js"></script>
-  <script defer src="script.js"></script>
+  <title>Okoro Chukwueloka — Engineering & Research Portfolio</title>
 </head>
 <body>
-  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+  <div class="reading-progress"><span id="reading-progress-bar"></span></div>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header" id="top">
-      <a class="wordmark" href="#top" aria-label="Okoro Chukwueloka home"><span class="wordmark-mark">OC</span><span>OKORO CHUKWUELOKA</span></a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
-      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
-        <a href="#about">Profile</a>
-        <a href="#approach">Approach</a>
-        <a href="#projects">Projects</a>
-        <a href="#research">Research</a>
-        <a href="#experience">Experience</a>
-        <a href="#recognition">Awards</a>
-        <a href="#credentials">Credentials</a>
-        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
-      </nav>
-    </header>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top"><span class="brand-symbol">OC<span>+</span></span><span class="brand-text">OKORO CHUKWUELOKA<small>ENGINEERING · RESEARCH · SYSTEMS</small></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#profile">Profile</a><a href="#research-spine">Research</a><a href="#funding">Funding</a><a href="#projects">Projects</a><a href="#fieldwork">Fieldwork</a><a href="#recognition">Recognition</a><a href="#credentials">Credentials</a><a class="nav-cta" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-circuit circuit-a" aria-hidden="true"></div><div class="hero-circuit circuit-b" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> ELECTRONIC ENGINEERING · NIGERIA</p>
+        <h1>Making the invisible<br><em>measurable, intelligible,</em><br>and actionable.</h1>
+        <p class="hero-lede">I work at the intersection of embedded systems, electronic instrumentation, edge diagnostics and cyber-physical power systems.</p>
+        <p class="hero-intro">My work follows a connected question: how can low-cost embedded systems sense physical behaviour, interpret it reliably and support decisions that can be explained and verified?</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore the engineering work <span>↓</span></a><a class="button button-outline" href="assets/documents/Okoro_Chukwueloka_CSC_CV.pdf" download>Download CV · PDF ↓</a></div>
+        <div class="hero-facts"><span>FUTO · B.Eng. Electronic Engineering</span><i></i><span>CGPA 3.0 / 4.0</span><i></i><span>Expected 5 Dec 2026</span></div>
+        <div class="hero-index"><span>PORTFOLIO / 2026</span><span>05 FEATURED PROJECTS</span><span>60 CURATED EVIDENCE IMAGES</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-main"><img src="assets/images/portrait.jpg" alt="Portrait of Okoro Chukwueloka" fetchpriority="high"><span class="portrait-tag">OKORO CHUKWUELOKA · ELECTRONIC ENGINEERING</span></div>
+        <div class="hero-image-float float-power"><img src="assets/evidence/powerscope-indexed/14-powerscope-final-build.jpg" alt="PowerScope completed instrument build"><span>01 / INSTRUMENTATION</span></div>
+        <div class="hero-image-float float-vibe"><img src="assets/evidence/main-indexed/37-vibeguard-dashboard-normal-state.png" alt="VibeGuard normal-state dashboard"><span>03 / EDGE DIAGNOSTICS</span></div>
+        <div class="hero-image-float float-grid"><img src="assets/evidence/main-indexed/12-gridpulse-restore-schematic.png" alt="GridPulse schematic"><span>02 / CYBER-PHYSICAL SYSTEMS</span></div>
+        <div class="hero-stamp"><b>OC</b><span>ENGINEERING<br>WITH EVIDENCE</span></div>
+      </div>
+    </section>
 
-    <main id="main">
-      <section class="hero section-dark" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-line"></span> ELECTRONIC ENGINEERING · NIGERIA</p>
-          <h1 id="hero-title">A signal is only data.<br><em>Engineering makes it matter.</em></h1>
-          <p class="hero-subtitle">Final-year Electronic Engineering student | Embedded Systems &amp; Edge-Intelligence Researcher</p>
-          <p class="hero-intro">I build and study the systems that turn physical behaviour into measurements, diagnostics and control decisions — from embedded instruments to edge-side fault detection and supervised power-network restoration.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore the projects <span aria-hidden="true">↓</span></a>
-            <a class="button button-ghost" href="assets/documents/Okoro_Chukwueloka_CSC_CV.pdf" target="_blank" rel="noopener">Download CV (PDF) <span aria-hidden="true">↗</span></a>
-            <a class="button button-ghost button-word" href="assets/documents/Okoro_Chukwueloka_CSC_CV.docx" download>Word version <span aria-hidden="true">↓</span></a>
+    <div class="focus-ribbon"><div><b>01</b><strong>MEASURE</strong><span>Instrumentation &amp; acquisition</span></div><div><b>02</b><strong>INTERPRET</strong><span>Signal processing &amp; edge intelligence</span></div><div><b>03</b><strong>PROTECT</strong><span>Embedded decision logic</span></div><div><b>04</b><strong>SUPERVISE</strong><span>Human-centred cyber-physical systems</span></div></div>
+
+    <section class="section section-profile" id="profile"><span id="about" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-head"><div><p class="eyebrow">01 / PROFILE</p><h2>An engineer drawn to the <em>whole system.</em></h2></div><p class="section-aside">From the sensor pin to the operator dashboard.</p></div>
+      <div class="profile-layout"><div class="profile-copy"><p class="big-statement">A useful system does more than collect data. It gives that data a trustworthy path to a decision.</p><p>I am a final-year B.Eng. Electronic Engineering student at the Federal University of Technology, Owerri (FUTO), with expected completion on 5 December 2026. My current CGPA is 3.0/4.0. I build and document embedded and electronic systems involving microcontroller firmware, measurement front ends, PCB design, signal processing, telemetry and monitoring interfaces.</p><p>My strongest interest is resource-aware edge diagnostics for electrical and industrial assets: how sensing, signal conditioning, compact computation and dependable communication can improve monitoring while respecting constraints in timing, memory, energy and reliability.</p><p>PowerScope, VibeGuard and GridPulse-RESTORE form the centre of that trajectory. ESP32-C3 and STM32 board-development work extend the hardware foundation, while industrial attachment experience gives the research questions practical context.</p><div class="profile-quicklinks"><a href="#project-powerscope">Instrumentation ↗</a><a href="#project-vibeguard">Edge diagnostics ↗</a><a href="#project-gridpulse">Power systems ↗</a></div></div><aside class="profile-facts"><div class="fact-card"><span>ACADEMIC HOME</span><strong>Federal University of Technology, Owerri</strong><small>B.Eng. Electronic Engineering · English-medium instruction</small></div><div class="fact-card"><span>ACADEMIC STANDING</span><strong>3.0 / 4.0 CGPA</strong><small>Expected completion: 5 December 2026</small></div><div class="fact-card"><span>TECHNICAL CENTRE</span><strong>Embedded measurement &amp; edge intelligence</strong><small>STM32 · ESP32 · DSP · PCB design · cyber-physical systems</small></div><div class="fact-card"><span>POSTGRADUATE DIRECTION</span><strong>Intelligent embedded systems</strong><small>Fault diagnostics, control, instrumentation and reliable telemetry</small></div></aside></div>
+      <div class="gallery-intro profile-gallery-intro"><h3>People, learning and identity</h3><p>Portraits and profile imagery from the supplied personal archive, retained as distinct visual records rather than substituted with stock imagery.</p></div>
+      <div class="gallery-grid gallery-profile">
+<figure class="gallery-item media-portrait">
+          <button class="gallery-open" type="button" data-full="assets/images/portrait.jpg" data-caption="Primary portfolio portrait" aria-label="Enlarge: Primary portfolio portrait">
+            <img src="assets/images/portrait.jpg" alt="Formal front-facing portrait of Okoro Chukwueloka wearing glasses" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Primary portfolio portrait</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/01-outdoor-profile-photo.jpg" data-caption="Outdoor profile photograph from the supplied PowerScope photo collection" aria-label="Enlarge: Outdoor profile photograph from the supplied PowerScope photo collection">
+            <img src="assets/evidence/powerscope-indexed/01-outdoor-profile-photo.jpg" alt="Outdoor portrait of Okoro in a purple shirt" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Outdoor profile photograph from the supplied PowerScope photo collection</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/13-stylised-profile-portrait.jpg" data-caption="Monochrome profile artwork" aria-label="Enlarge: Monochrome profile artwork">
+            <img src="assets/evidence/main-indexed/13-stylised-profile-portrait.jpg" alt="Stylised monochrome portrait supplied in the labelled photo bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Monochrome profile artwork</figcaption>
+        </figure>
+<figure class="gallery-item media-portrait">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/14-formal-headshot.jpg" data-caption="Formal headshot from the supporting archive" aria-label="Enlarge: Formal headshot from the supporting archive">
+            <img src="assets/evidence/main-indexed/14-formal-headshot.jpg" alt="Formal headshot from the labelled photo bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Formal headshot from the supporting archive</figcaption>
+        </figure>
+<figure class="gallery-item media-banner">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/18-linkedin-banner-artwork.jpg" data-caption="Professional profile banner artwork" aria-label="Enlarge: Professional profile banner artwork">
+            <img src="assets/evidence/main-indexed/18-linkedin-banner-artwork.jpg" alt="Personal professional banner artwork from the labelled image bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Professional profile banner artwork</figcaption>
+        </figure>
+</div>
+      <div class="institution-logos"><div class="logo-strip"><div class="logo-mark"><img src="assets/evidence/main-indexed/11-futo-logo.png" alt="Federal University of Technology Owerri institutional logo" loading="lazy"><span>Federal University of Technology, Owerri</span></div>
+<div class="logo-mark"><img src="assets/evidence/powerscope-indexed/19-seles-student-society-logo.png" alt="Society of Electronic Engineering Students logo" loading="lazy"><span>Society of Electronic Engineering Students (SELES)</span></div></div><p>Academic and professional context</p></div>
+    </section>
+
+    <section class="section research-spine" id="research-spine">
+      <div class="section-head section-head-light"><div><p class="eyebrow">02 / RESEARCH SPINE</p><h2>Three projects.<br><em>One connected question.</em></h2></div><p class="section-aside">An engineering trajectory that moves from trustworthy acquisition to responsible action.</p></div>
+      <div class="spine-track"><article><span class="spine-number">01</span><span class="spine-label">MEASURE</span><h3>PowerScope</h3><p>Build an instrument that can source a signal, acquire it and expose the response.</p><a href="#project-powerscope">Explore the instrument ↗</a></article><div class="spine-connector">→</div><article><span class="spine-number">02</span><span class="spine-label">INTERPRET</span><h3>VibeGuard</h3><p>Turn vibration samples into statistical features, live telemetry and visible diagnostic states.</p><a href="#project-vibeguard">Explore the diagnostic system ↗</a></article><div class="spine-connector">→</div><article><span class="spine-number">03</span><span class="spine-label">PROTECT</span><h3>GridPulse</h3><p>Keep protection local, make restoration supervised and preserve safety interlocks.</p><a href="#project-gridpulse">Explore the grid testbed ↗</a></article></div>
+      <div class="research-principle"><span>RESEARCH QUESTION</span><p>How can low-cost embedded platforms support reliable fault diagnosis and condition monitoring of electrical and industrial assets under constraints in compute, timing, memory, energy and communications?</p></div>
+    </section>
+
+    <section class="section projects-index" id="projects">
+      <div class="section-head"><div><p class="eyebrow">03 / SELECTED ENGINEERING WORK</p><h2>Designed to be <em>examined.</em></h2></div><p class="section-aside">Five featured projects, with the technical record, image evidence, role and validation boundaries kept together.</p></div>
+      <div class="project-index-controls"><span>FILTER BY ENGINEERING DOMAIN</span><div class="filter-row"><button class="filter-chip is-active" data-filter="all" aria-pressed="true">All five</button><button class="filter-chip" data-filter="instrumentation" aria-pressed="false">Instrumentation</button><button class="filter-chip" data-filter="edge" aria-pressed="false">Edge / protection</button><button class="filter-chip" data-filter="hardware" aria-pressed="false">PCB / hardware</button></div></div>
+      <div class="project-index-grid"><a href="#project-powerscope" data-index-category="instrumentation"><b>01</b><strong>PowerScope</strong><span>Oscilloscope + programmable supply</span><em>View case study ↗</em></a><a href="#project-gridpulse" data-index-category="protection"><b>02</b><strong>GridPulse-RESTORE</strong><span>Feeder protection + supervised restoration</span><em>View case study ↗</em></a><a href="#project-vibeguard" data-index-category="edge"><b>03</b><strong>VibeGuard</strong><span>STM32 vibration monitoring + dashboard</span><em>View case study ↗</em></a><a href="#project-esp32" data-index-category="hardware"><b>04</b><strong>ESP32-C3 Logger</strong><span>PCB iteration + firmware tests</span><em>View case study ↗</em></a><a href="#project-bluepill" data-index-category="hardware"><b>05</b><strong>STM32F103 Board</strong><span>KiCad schematic + PCB design</span><em>View case study ↗</em></a></div>
+    </section>
+
+    
+<section class="section project-section project-powerscope" id="project-powerscope" data-category="instrumentation">
+  <div class="project-heading"><div><p class="eyebrow">PROJECT 01 / INSTRUMENTATION</p><h2>PowerScope<span class="title-dot">.</span></h2><p class="project-subtitle">Portable dual-channel oscilloscope &amp; programmable DC power supply</p></div><div class="status-chip status-team">FINAL-YEAR TEAM PROJECT · 2025–2026</div></div>
+  <div class="project-lead-grid"><div><p class="project-lede">One instrument, two laboratory needs: supply a circuit, then observe how it responds.</p><p>PowerScope is the undergraduate thesis project: a portable electronic-laboratory instrument combining an adjustable DC power supply with a two-channel digital storage oscilloscope. The objective is to bring source control, waveform acquisition, display and remote waveform viewing into one coordinated system.</p><p><strong>My role:</strong> Lead Hardware &amp; Firmware Designer within a four-person final-year project team. This is collaborative work, and the portfolio identifies it as such.</p><div class="tag-row"><span>AD9251-20 · 14-bit</span><span>10 MS/s per channel</span><span>FPGA acquisition</span><span>ESP32-S3</span><span>LM5176</span><span>LTC4015</span></div></div><aside class="spec-card"><p class="eyebrow">DOCUMENTED DESIGN TARGETS</p><div class="spec-number"><strong>1–15 V</strong><span>programmable DC output</span></div><div class="spec-number"><strong>2 A</strong><span>specified supply capability</span></div><div class="spec-number"><strong>2 × 10 MS/s</strong><span>simultaneous scope sampling target</span></div><small>Targets and architecture are based on the project report/CV; they are not presented as independently calibrated performance results.</small></aside></div>
+  <div class="story-band"><span>DESIGN → ASSEMBLY → BENCH TEST → DISPLAY → WIRELESS VIEW</span><span>15+ ORIGINAL BUILD IMAGES</span></div>
+  <div class="gallery-intro"><h3>The build, in sequence</h3><p>These are the actual development and test photographs supplied with the project record. Select any image to inspect it at full size.</p></div>
+  <div class="gallery-grid gallery-powerscope">
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/23-powerscope-initial-altium-design.png" data-caption="01 · Initial Altium design" aria-label="Enlarge: 01 · Initial Altium design">
+            <img src="assets/evidence/main-indexed/23-powerscope-initial-altium-design.png" alt="Initial PowerScope circuit and PCB design displayed in Altium" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>01 · Initial Altium design</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/02-powerscope-enclosure-interior.jpg" data-caption="02 · Internal electronics and enclosure view" aria-label="Enlarge: 02 · Internal electronics and enclosure view">
+            <img src="assets/evidence/powerscope-indexed/02-powerscope-enclosure-interior.jpg" alt="Interior view of the PowerScope enclosure and electronic assemblies" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>02 · Internal electronics and enclosure view</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/03-powerscope-electronics-bench-1.jpg" data-caption="03 · PowerScope 1 — early assembly and test bench" aria-label="Enlarge: 03 · PowerScope 1 — early assembly and test bench">
+            <img src="assets/evidence/powerscope-indexed/03-powerscope-electronics-bench-1.jpg" alt="PowerScope electronics and test equipment on the workbench" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>03 · PowerScope 1 — early assembly and test bench</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/04-powerscope-bench-development-2.jpg" data-caption="04 · PowerScope 2 — bench prototype" aria-label="Enlarge: 04 · PowerScope 2 — bench prototype">
+            <img src="assets/evidence/powerscope-indexed/04-powerscope-bench-development-2.jpg" alt="PowerScope prototype board and components during development" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>04 · PowerScope 2 — bench prototype</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/05-powerscope-bench-development-3.jpg" data-caption="05 · PowerScope 3 — circuit development" aria-label="Enlarge: 05 · PowerScope 3 — circuit development">
+            <img src="assets/evidence/powerscope-indexed/05-powerscope-bench-development-3.jpg" alt="PowerScope breadboard and electronics development arrangement" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>05 · PowerScope 3 — circuit development</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/06-powerscope-electronics-bench-4.jpg" data-caption="06 · PowerScope 4 — breadboard integration" aria-label="Enlarge: 06 · PowerScope 4 — breadboard integration">
+            <img src="assets/evidence/powerscope-indexed/06-powerscope-electronics-bench-4.jpg" alt="PowerScope breadboard integration with measurement setup" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>06 · PowerScope 4 — breadboard integration</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/07-powerscope-display-waveform-test-1.jpg" data-caption="07 · PowerScope 5 — display and system test" aria-label="Enlarge: 07 · PowerScope 5 — display and system test">
+            <img src="assets/evidence/powerscope-indexed/07-powerscope-display-waveform-test-1.jpg" alt="PowerScope display and circuit under bench test" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>07 · PowerScope 5 — display and system test</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/08-powerscope-display-waveform-test-2.jpg" data-caption="08 · PowerScope 6 — display and waveform check" aria-label="Enlarge: 08 · PowerScope 6 — display and waveform check">
+            <img src="assets/evidence/powerscope-indexed/08-powerscope-display-waveform-test-2.jpg" alt="PowerScope display test with waveform visible" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>08 · PowerScope 6 — display and waveform check</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/09-powerscope-supply-waveform-test.jpg" data-caption="09 · PowerScope 7 — supply and waveform test" aria-label="Enlarge: 09 · PowerScope 7 — supply and waveform test">
+            <img src="assets/evidence/powerscope-indexed/09-powerscope-supply-waveform-test.jpg" alt="PowerScope supply and oscilloscope waveform test with test leads" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>09 · PowerScope 7 — supply and waveform test</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/10-powerscope-live-front-panel-demo.jpg" data-caption="10 · PowerScope 8 — front-panel test" aria-label="Enlarge: 10 · PowerScope 8 — front-panel test">
+            <img src="assets/evidence/powerscope-indexed/10-powerscope-live-front-panel-demo.jpg" alt="PowerScope front panel and enclosure during testing" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>10 · PowerScope 8 — front-panel test</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/11-powerscope-oscilloscope-display-test.jpg" data-caption="11 · PowerScope 9 — oscilloscope display test" aria-label="Enlarge: 11 · PowerScope 9 — oscilloscope display test">
+            <img src="assets/evidence/powerscope-indexed/11-powerscope-oscilloscope-display-test.jpg" alt="PowerScope oscilloscope display showing a captured waveform" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>11 · PowerScope 9 — oscilloscope display test</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/12-powerscope-final-front-panel.jpg" data-caption="12 · PowerScope 10 — final panel arrangement" aria-label="Enlarge: 12 · PowerScope 10 — final panel arrangement">
+            <img src="assets/evidence/powerscope-indexed/12-powerscope-final-front-panel.jpg" alt="PowerScope assembled instrument front panel with controls and display" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>12 · PowerScope 10 — final panel arrangement</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/13-powerscope-complete-prototype.jpg" data-caption="13 · PowerScope 11 — completed prototype close-up" aria-label="Enlarge: 13 · PowerScope 11 — completed prototype close-up">
+            <img src="assets/evidence/powerscope-indexed/13-powerscope-complete-prototype.jpg" alt="Close-up of the PowerScope prototype electronics and wiring" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>13 · PowerScope 11 — completed prototype close-up</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/14-powerscope-final-build.jpg" data-caption="14 · Final instrument build" aria-label="Enlarge: 14 · Final instrument build">
+            <img src="assets/evidence/powerscope-indexed/14-powerscope-final-build.jpg" alt="Final PowerScope instrument build with display and front controls" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>14 · Final instrument build</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/17-powerscope-wifi-streaming-test.jpg" data-caption="15 · Wi-Fi waveform-streaming test" aria-label="Enlarge: 15 · Wi-Fi waveform-streaming test">
+            <img src="assets/evidence/powerscope-indexed/17-powerscope-wifi-streaming-test.jpg" alt="PowerScope wireless waveform display across a laptop and mobile devices" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>15 · Wi-Fi waveform-streaming test</figcaption>
+        </figure>
+</div>
+  <div class="project-collaboration"><div><p class="eyebrow">TEAM &amp; SUPERVISION</p><h3>Engineering is collaborative.</h3><p>These photographs document the project team and the academic supervision context. The final-year instrument was completed as a group project.</p></div><div class="gallery-grid gallery-team">
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/15-powerscope-team-with-supervisors.jpg" data-caption="Project collaboration · Team with supervisors" aria-label="Enlarge: Project collaboration · Team with supervisors">
+            <img src="assets/evidence/powerscope-indexed/15-powerscope-team-with-supervisors.jpg" alt="PowerScope project team photographed with supervisors" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Project collaboration · Team with supervisors</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/powerscope-indexed/16-powerscope-project-team.jpg" data-caption="Project collaboration · Team photograph" aria-label="Enlarge: Project collaboration · Team photograph">
+            <img src="assets/evidence/powerscope-indexed/16-powerscope-project-team.jpg" alt="PowerScope project team group photograph" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Project collaboration · Team photograph</figcaption>
+        </figure>
+</div></div>
+  <details class="engineering-notes"><summary>Open the deeper engineering notes <span>+</span></summary><div class="details-grid"><article><h4>Oscilloscope signal path</h4><p>The documented architecture uses a dual-channel AD9251-20 14-bit converter, with simultaneous sampling at 10 MS/s per channel. The analogue path includes input protection, selectable attenuation and THS4551 fully differential drivers before conversion. FPGA logic provides predictable capture and channel framing.</p></article><article><h4>Programmable supply</h4><p>The supply is specified around a 1–15 V output, up to 2 A, using an LM5176 buck-boost controller. Battery-management / charger interfacing is documented around the LTC4015.</p></article><article><h4>Supervision &amp; display</h4><p>The ESP32-S3 supervisory controller handles display telemetry, parameter adjustment and wireless data streaming. The wireless view complements the measurement system; it does not replace the analogue bandwidth or sampling path.</p></article><article><h4>Signal processing direction</h4><p>The CV records an exploratory Edge Impulse fault-classification pipeline using FFT and DWT feature representations. No industrially validated classifier performance is claimed here.</p></article></div><p class="integrity-note">Validation boundary: calibration accuracy, effective number of bits, bandwidth, noise floor and trained-model performance should only be quoted when the associated measurement protocol and results are published.</p></details>
+  <div class="project-actions"><a class="button button-dark" href="https://github.com/okoroeloka5-hue/PowerScope-Final-Year-Project" target="_blank" rel="noopener">Explore PowerScope on GitHub ↗</a><a class="text-link" href="assets/documents/Okoro_Chukwueloka_CSC_CV.pdf" download>CV project summary ↓</a></div>
+</section>
+
+<section class="section project-section project-gridpulse" id="project-gridpulse" data-category="protection">
+  <div class="project-heading"><div><p class="eyebrow">PROJECT 02 / CYBER-PHYSICAL POWER SYSTEMS</p><h2>GridPulse-RESTORE<span class="title-dot">.</span></h2><p class="project-subtitle">Fault-aware feeder isolation &amp; human-approved service restoration</p></div><div class="status-chip status-progress">IN PROGRESS · PROTEUS DESIGN</div></div>
+  <div class="project-lead-grid"><div><p class="project-lede">A grid controller should know when to trip—and when it must wait for a human.</p><p>GridPulse-RESTORE is a scaled low-voltage distribution-network testbed. It explores protection, feeder isolation, alternate-source capacity assessment and a supervised restoration sequence. Its research motivation is grounded in distribution-network exposure during EEDC industrial training and the accompanying human-on-the-loop preprint.</p><p><strong>Controller split:</strong> STM32F103C8T6 retains local protection authority; the ESP32 handles telemetry and supervisory requests. The gateway cannot override local trip logic.</p><div class="tag-row"><span>24 Vrms / 50 Hz model</span><span>3 radial feeders</span><span>STM32F103C8T6</span><span>ESP32 gateway</span><span>Break-before-make</span><span>Human approval</span></div></div><aside class="spec-card"><p class="eyebrow">IMPLEMENTATION STATUS</p><div class="status-line"><b class="status-led led-done"></b><span>A1 · Source &amp; earthing — built</span></div><div class="status-line"><b class="status-led led-done"></b><span>A2 · Distribution network — built</span></div><div class="status-line"><b class="status-led led-part"></b><span>B1 · Measurement / protection — partly built</span></div><div class="status-line"><b class="status-led led-plan"></b><span>B2 / C1 / C2 — design-only</span></div><small>Closed-loop simulation was not complete in the supplied build record. Calculated values are not described as measured results.</small></aside></div>
+  <div class="gallery-intro"><h3>Plant, schematic &amp; engineering blueprint</h3><p>The three visuals show the electrical plant drawing, the source schematic supplied in the indexed bundle and the structured implementation blueprint.</p></div>
+  <div class="gallery-grid gallery-gridpulse">
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/12-gridpulse-restore-schematic.png" data-caption="Original GridPulse schematic sheet from the labelled evidence bundle" aria-label="Enlarge: Original GridPulse schematic sheet from the labelled evidence bundle">
+            <img src="assets/evidence/main-indexed/12-gridpulse-restore-schematic.png" alt="GridPulse-RESTORE distribution feeder and protection schematic from the labelled image archive" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Original GridPulse schematic sheet from the labelled evidence bundle</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/projects/gridpulse/gridpulse-a2-sheet.png" data-caption="GridPulse-RESTORE · A2 Proteus schematic" aria-label="Enlarge: GridPulse-RESTORE · A2 Proteus schematic">
+            <img src="assets/projects/gridpulse/gridpulse-a2-sheet.png" alt="GridPulse-RESTORE A2 Proteus schematic showing source, distribution feeders, measurement and protection blocks" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>GridPulse-RESTORE · A2 Proteus schematic</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/projects/gridpulse/gridpulse-engineering-blueprint.png" data-caption="GridPulse-RESTORE · System blueprint and staged build plan" aria-label="Enlarge: GridPulse-RESTORE · System blueprint and staged build plan">
+            <img src="assets/projects/gridpulse/gridpulse-engineering-blueprint.png" alt="GridPulse-RESTORE engineering blueprint outlining source, feeders, measurement, STM32 protection, ESP32 supervision and tests" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>GridPulse-RESTORE · System blueprint and staged build plan</figcaption>
+        </figure>
+</div>
+  <div class="gridpulse-rules"><div><span>01</span><strong>Local trip authority</strong><p>Hardware comparator / latch paths are intended to trip independently of network messages.</p></div><div><span>02</span><strong>Dead transfer</strong><p>Break-before-make logic prevents source paralleling; position feedback must be checked.</p></div><div><span>03</span><strong>Human approval</strong><p>ESP32 forwards a validated operator request; the STM32 re-checks safety preconditions.</p></div></div>
+  <details class="engineering-notes"><summary>Open corrected design decisions <span>+</span></summary><div class="details-grid"><article><h4>Controller and I/O</h4><p>The corrected controller is STM32F103C8T6, not STM32F407. The control-core plan specifies three 74HC595 outputs and three 74HC165 inputs on SPI2 for 24 outputs and 24 inputs.</p></article><article><h4>Transformer taps</h4><p>TR1 is the corrected 2P5S transformer designation. Four tap-selection switches were retained because the available transformer terminals were already allocated; a fifth switch was not reintroduced.</p></article><article><h4>Earth-current sensing</h4><p>TR2 is the 100:1 current transformer placed in the neutral-earthing path for isolated earth-current measurement through the burden / sensing chain. It is not a feeder load-current CT.</p></article><article><h4>Surge clamp and load</h4><p>The surge clamp is a back-to-back pair of 43 V 1N4755A zeners. The F3 bridge / capacitor load uses the corrected 220 Ω resistor.</p></article></div><p class="integrity-note">Safety: this is an isolated, current-limited low-voltage demonstrator only. It must never be connected to utility mains.</p></details>
+  <div class="project-actions"><a class="button button-dark" href="docs/gridpulse-engineering-notes.md">Read engineering correction notes ↗</a><a class="text-link" href="docs/GridPulse-RESTORE.html">Open detailed GridPulse case study ↗</a></div>
+</section>
+
+<section class="section project-section project-vibeguard" id="project-vibeguard" data-category="edge">
+  <div class="project-heading"><div><p class="eyebrow">PROJECT 03 / EDGE DIAGNOSTICS</p><h2>VibeGuard<span class="title-dot">.</span></h2><p class="project-subtitle">STM32 vibration monitoring, statistical features &amp; live dashboard</p></div><div class="status-chip status-progress">PROTOTYPE · PROTEUS + PYTHON</div></div>
+  <div class="project-lead-grid"><div><p class="project-lede">A vibration trace becomes useful when the embedded system can explain why it looks abnormal.</p><p>VibeGuard is a condition-monitoring prototype built around an STM32F103 target and an ADXL345 accelerometer. It reads sensor data over I²C, computes RMS and peak-to-peak features on the microcontroller and streams telemetry over UART to a Python dashboard for live visualisation and status alerts.</p><p><strong>Research connection:</strong> it extends the signal-acquisition and diagnostic interests developed through PowerScope and the UAV motor-monitoring work.</p><div class="tag-row"><span>STM32F103</span><span>ADXL345</span><span>I²C</span><span>Embedded C</span><span>RMS / Vpp</span><span>UART</span><span>Python dashboard</span></div></div><aside class="spec-card"><p class="eyebrow">DOCUMENTED SIGNAL PATH</p><div class="signal-stack"><b>ADXL345</b><i>↓</i><b>STM32 acquisition</b><i>↓</i><b>RMS / peak-to-peak</b><i>↓</i><b>UART telemetry</b><i>↓</i><b>Python dashboard</b></div><small>Baseline threshold / statistical monitoring is distinguished from any future TinyML classifier.</small></aside></div>
+  <div class="gallery-intro"><h3>From circuit to diagnostic view</h3><p>These are the labelled MCU, firmware, schematic, block-diagram, terminal and dashboard captures. The three dashboard states are shown together so a reviewer can compare normal, warning and critical states.</p></div>
+  <div class="gallery-grid gallery-vibeguard">
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/32-vibeguard-mcu-render.png" data-caption="01 · MCU / hardware visual" aria-label="Enlarge: 01 · MCU / hardware visual">
+            <img src="assets/evidence/main-indexed/32-vibeguard-mcu-render.png" alt="STM32 microcontroller render from the VibeGuard labelled image bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>01 · MCU / hardware visual</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/33-vibeguard-firmware-debugging.png" data-caption="02 · Firmware debugging" aria-label="Enlarge: 02 · Firmware debugging">
+            <img src="assets/evidence/main-indexed/33-vibeguard-firmware-debugging.png" alt="VibeGuard firmware debugging session on a computer with terminal output" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>02 · Firmware debugging</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/34-vibeguard-system-overview.png" data-caption="03 · System overview" aria-label="Enlarge: 03 · System overview">
+            <img src="assets/evidence/main-indexed/34-vibeguard-system-overview.png" alt="VibeGuard system overview and prototype diagram" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>03 · System overview</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/35-vibeguard-dashboard-critical-state.png" data-caption="04 · Critical-state dashboard" aria-label="Enlarge: 04 · Critical-state dashboard">
+            <img src="assets/evidence/main-indexed/35-vibeguard-dashboard-critical-state.png" alt="VibeGuard dashboard showing a critical-state status" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>04 · Critical-state dashboard</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/36-vibeguard-dashboard-warning-state.png" data-caption="05 · Warning-state dashboard" aria-label="Enlarge: 05 · Warning-state dashboard">
+            <img src="assets/evidence/main-indexed/36-vibeguard-dashboard-warning-state.png" alt="VibeGuard dashboard showing warning-state measurements" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>05 · Warning-state dashboard</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/37-vibeguard-dashboard-normal-state.png" data-caption="06 · Normal-state dashboard" aria-label="Enlarge: 06 · Normal-state dashboard">
+            <img src="assets/evidence/main-indexed/37-vibeguard-dashboard-normal-state.png" alt="VibeGuard dashboard showing normal-state measurements" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>06 · Normal-state dashboard</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/38-vibeguard-system-block-diagram.png" data-caption="07 · System block diagram" aria-label="Enlarge: 07 · System block diagram">
+            <img src="assets/evidence/main-indexed/38-vibeguard-system-block-diagram.png" alt="VibeGuard functional system block diagram" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>07 · System block diagram</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/39-vibeguard-uart-virtual-terminal.png" data-caption="08 · UART telemetry terminal" aria-label="Enlarge: 08 · UART telemetry terminal">
+            <img src="assets/evidence/main-indexed/39-vibeguard-uart-virtual-terminal.png" alt="VibeGuard UART virtual terminal showing streamed diagnostic readings" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>08 · UART telemetry terminal</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/40-vibeguard-proteus-circuit-schematic.png" data-caption="09 · Proteus circuit schematic" aria-label="Enlarge: 09 · Proteus circuit schematic">
+            <img src="assets/evidence/main-indexed/40-vibeguard-proteus-circuit-schematic.png" alt="VibeGuard Proteus circuit schematic with STM32 and accelerometer circuit" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>09 · Proteus circuit schematic</figcaption>
+        </figure>
+<figure class="gallery-item media-screenshot">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/41-vibeguard-integrated-system-screen.png" data-caption="10 · Integrated system view" aria-label="Enlarge: 10 · Integrated system view">
+            <img src="assets/evidence/main-indexed/41-vibeguard-integrated-system-screen.png" alt="VibeGuard integrated simulation and dashboard screen" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>10 · Integrated system view</figcaption>
+        </figure>
+</div>
+  <div class="demo-stage" id="vibeguard-demo"><div class="demo-stage-copy"><p class="eyebrow">VIBEGUARD / DEMONSTRATION</p><h3>The system in motion.</h3><p>The dedicated demonstration area is ready for the recorded walkthrough. The actual video file has not yet been supplied in this portfolio bundle, so no placeholder clip or unrelated video is shown.</p><span class="demo-status"><i></i> VIDEO SLOT READY · AWAITING YOUR RECORDING</span></div><div class="demo-screen"><div class="demo-screen-top"><span>LIVE DEMO / VIBEGUARD</span><span>LOCAL VIDEO SLOT</span></div><video class="vibeguard-video" controls playsinline preload="metadata" data-vibeguard-video="assets/media/vibeguard-demo.mp4" hidden></video><div class="demo-play" aria-hidden="true">▶</div><strong>VibeGuard system demonstration</strong><small>The player is ready for the original demonstration recording. No unrelated clip is substituted.</small></div></div>
+  <details class="engineering-notes"><summary>Open implementation notes &amp; schematic corrections <span>+</span></summary><div class="details-grid"><article><h4>ADXL345 I²C wiring</h4><p>SDO is separated from SDA and tied to GND for address 0x53; SDA connects to STM32 PB9 and SCL to PB8. CS is held high for I²C mode, subject to the actual symbol / module datasheet.</p></article><article><h4>Pull-ups and voltage compatibility</h4><p>4.7 kΩ pull-ups are specified on SDA and SCL to 3.3 V. If a 5 V LCD backpack pulls the bus to 5 V, use a compatible arrangement or bidirectional level shifter to protect the STM32.</p></article><article><h4>Reset and boot configuration</h4><p>NRST uses a 10 kΩ pull-up to 3.3 V and a reset pushbutton to GND; BOOT0 uses a 10 kΩ pull-down for normal Flash boot. Package pin numbers and debug timing must be verified against the exact model.</p></article><article><h4>Signal and UART routing</h4><p>VIB_OUT connects to ADC-capable PA0 and must remain in the ADC input range (nominally 0–3.3 V). USART1 TX PA9 goes to terminal RXD; PA10 RX goes to terminal TXD; grounds are common.</p></article></div><p class="integrity-note">The Proteus schematic illustration is not a substitute for a verified project file. Sensor-model behaviour, compiled firmware, sampling assumptions and timing should be checked in the chosen toolchain.</p></details>
+  <div class="project-actions"><a class="button button-dark" href="https://github.com/okoroeloka5-hue/VibeGuard" target="_blank" rel="noopener">Explore VibeGuard on GitHub ↗</a></div>
+</section>
+
+<section class="section project-section project-esp32" id="project-esp32" data-category="hardware">
+  <div class="project-heading"><div><p class="eyebrow">PROJECT 04 / EMBEDDED HARDWARE</p><h2>ESP32-C3 Environmental Logger<span class="title-dot">.</span></h2><p class="project-subtitle">PCB iteration, component planning &amp; firmware test development</p></div><div class="status-chip status-progress">PCB / FIRMWARE DEVELOPMENT</div></div>
+  <div class="project-lead-grid"><div><p class="project-lede">A board is a record of engineering choices—not just a rendered shape.</p><p>This project centres on an ESP32-C3 environmental-logging platform. The available repository evidence is strongest in the hardware-development workflow: KiCad project files, BOM spreadsheets, test sketches and a documented prototype-2 improvement image.</p><p>Exact sensor models, calibration, sampling interval and logging destination are not inferred where the public repository material does not yet specify them.</p><div class="tag-row"><span>ESP32-C3</span><span>KiCad</span><span>BOM</span><span>PCB iteration</span><span>Firmware test sketches</span></div></div><aside class="spec-card"><p class="eyebrow">EVIDENCE CHECKLIST</p><div class="status-line"><b class="status-led led-done"></b><span>PCB project / layout evidence</span></div><div class="status-line"><b class="status-led led-done"></b><span>BOM and test-sketch folders</span></div><div class="status-line"><b class="status-led led-part"></b><span>Sensor and measurement specification</span></div><div class="status-line"><b class="status-led led-plan"></b><span>Calibration and end-to-end test report</span></div></aside></div>
+  <div class="gallery-grid gallery-small">
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/08-esp32-c3-pcb-prototype-2-improvements.png" data-caption="ESP32-C3 · Prototype 2 improvement record" aria-label="Enlarge: ESP32-C3 · Prototype 2 improvement record">
+            <img src="assets/evidence/main-indexed/08-esp32-c3-pcb-prototype-2-improvements.png" alt="ESP32-C3 PCB prototype two improvements and fixes shown in the supplied evidence" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>ESP32-C3 · Prototype 2 improvement record</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/projects/esp32-c3/esp32-pcb-prototype-2.png" data-caption="ESP32-C3 · Board layout / prototype visual" aria-label="Enlarge: ESP32-C3 · Board layout / prototype visual">
+            <img src="assets/projects/esp32-c3/esp32-pcb-prototype-2.png" alt="ESP32-C3 environmental logger PCB prototype and layout view" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>ESP32-C3 · Board layout / prototype visual</figcaption>
+        </figure>
+</div>
+  <div class="project-actions"><a class="button button-dark" href="https://github.com/okoroeloka5-hue/esp32-c3-env-logger-v1" target="_blank" rel="noopener">Explore ESP32-C3 repository ↗</a></div>
+</section>
+
+<section class="section project-section project-bluepill" id="project-bluepill" data-category="hardware">
+  <div class="project-heading"><div><p class="eyebrow">PROJECT 05 / PCB DESIGN</p><h2>STM32F103 Blue Pill Board<span class="title-dot">.</span></h2><p class="project-subtitle">KiCad schematic capture and board design study</p></div><div class="status-chip status-study">PCB DESIGN STUDY</div></div>
+  <div class="project-lead-grid"><div><p class="project-lede">Understanding the controller starts before firmware: with the board that exposes it.</p><p>This board-design exercise explores STM32F103 pin access, schematic-to-PCB translation, component placement and preparation of design / manufacturing files. It is presented as a PCB design study, not a production-qualified or electrically validated board.</p><div class="tag-row"><span>STM32F103</span><span>KiCad</span><span>Schematic capture</span><span>PCB layout</span><span>Manufacturing outputs</span></div></div><aside class="spec-card"><p class="eyebrow">NEXT ENGINEERING EVIDENCE</p><p>Publish the complete BOM, board dimensions, ERC / DRC results, routing notes and documented power / clock / SWD bring-up tests when available.</p></aside></div>
+  <div class="gallery-grid gallery-small">
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/25-stm32-bluepill-pcba.png" data-caption="STM32F103 Blue Pill · PCB / PCBA render" aria-label="Enlarge: STM32F103 Blue Pill · PCB / PCBA render">
+            <img src="assets/evidence/main-indexed/25-stm32-bluepill-pcba.png" alt="STM32 Blue Pill PCBA board render" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>STM32F103 Blue Pill · PCB / PCBA render</figcaption>
+        </figure>
+<figure class="gallery-item media-technical">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/26-stm32-bluepill-schematic.png" data-caption="STM32F103 Blue Pill · Schematic capture" aria-label="Enlarge: STM32F103 Blue Pill · Schematic capture">
+            <img src="assets/evidence/main-indexed/26-stm32-bluepill-schematic.png" alt="STM32 Blue Pill schematic sheet" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>STM32F103 Blue Pill · Schematic capture</figcaption>
+        </figure>
+</div>
+  <div class="project-actions"><a class="button button-dark" href="https://github.com/okoroeloka5-hue/stm32f103-bluepill" target="_blank" rel="noopener">Explore STM32 board repository ↗</a></div>
+</section>
+
+
+    <section class="section fieldwork-section" id="fieldwork"><span id="experience" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-head"><div><p class="eyebrow">04 / INDUSTRIAL &amp; COMMUNITY EXPERIENCE</p><h2>Engineering is shaped <em>outside the lab.</em></h2></div><p class="section-aside">Field exposure, technical learning, teaching and service inform how I define engineering problems.</p></div>
+      <article class="experience-block"><div class="experience-heading"><div><span class="experience-period">JUNE — SEPTEMBER 2025 · FOUR MONTHS</span><h3>Engineering Intern · EEDC / MainPower</h3><p>Enugu Electricity Distribution Company · Abakpa District, Enugu</p></div><div class="experience-logos"><img src="assets/evidence/main-indexed/19-mainpower-logo.png" alt="MainPower logo"><img src="assets/evidence/main-indexed/11-futo-logo.png" alt="FUTO logo"></div></div><div class="experience-copy"><p>The industrial attachment rotated across seven engineering departments and exposed me to distribution operations, field safety, maintenance, asset records and network expansion workflows.</p><ul><li>Participated in field hazard inspections and distribution network patrols.</li><li>Supported transformer, switchgear and cable inventory checks against store records.</li><li>Assisted with load-profile calculations and distribution infrastructure sizing workflows.</li><li>Participated in transformer insulation-resistance and earth-resistance testing, and power-quality troubleshooting using a power-quality analyser.</li><li>Observed the practical relationship between feeder condition, protection, field safety and service continuity.</li></ul><a class="text-link" href="assets/documents/eedc-siwes-completion-letter.pdf" target="_blank" rel="noopener">View EEDC SIWES completion letter ↗</a></div><div class="gallery-intro"><h4>Field attachment photo record</h4><p>Five labelled photographs from the supplied EEDC / distribution field archive.</p></div><div class="gallery-grid gallery-experience">
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/06-eedc-field-attachment-photo.jpg" data-caption="EEDC attachment · Distribution field context" aria-label="Enlarge: EEDC attachment · Distribution field context">
+            <img src="assets/evidence/main-indexed/06-eedc-field-attachment-photo.jpg" alt="Distribution line / field attachment photograph from the EEDC evidence bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>EEDC attachment · Distribution field context</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/09-eedc-field-excursion.jpg" data-caption="EEDC attachment · Substation excursion" aria-label="Enlarge: EEDC attachment · Substation excursion">
+            <img src="assets/evidence/main-indexed/09-eedc-field-excursion.jpg" alt="Okoro at a distribution substation during a field excursion" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>EEDC attachment · Substation excursion</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/15-eedc-substation-photo.jpg" data-caption="EEDC attachment · Substation field activity" aria-label="Enlarge: EEDC attachment · Substation field activity">
+            <img src="assets/evidence/main-indexed/15-eedc-substation-photo.jpg" alt="Field team carrying out work around a distribution substation" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>EEDC attachment · Substation field activity</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/16-eedc-attachment-photo-2.jpg" data-caption="EEDC attachment · Field photograph" aria-label="Enlarge: EEDC attachment · Field photograph">
+            <img src="assets/evidence/main-indexed/16-eedc-attachment-photo-2.jpg" alt="EEDC attachment photograph from the supplied photo bundle" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>EEDC attachment · Field photograph</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/17-eedc-attachment-photo-3.jpg" data-caption="EEDC attachment · Safety / site photograph" aria-label="Enlarge: EEDC attachment · Safety / site photograph">
+            <img src="assets/evidence/main-indexed/17-eedc-attachment-photo-3.jpg" alt="Okoro wearing a safety vest during an EEDC industrial attachment activity" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>EEDC attachment · Safety / site photograph</figcaption>
+        </figure>
+</div></article>
+      <div class="experience-duo"><article class="mini-experience"><div class="mini-brand"><img src="assets/evidence/main-indexed/10-frcn-logo.png" alt="FRCN logo"><span>TELECOMMUNICATIONS</span></div><h3>Telecommunications Intern · FRCN &amp; Tait Radio Academy</h3><p>Five-month part-time attachment across Enugu and Abuja. Exposure included RF networks, VHF / UHF propagation, transmitter maintenance, repeaters, trunked-radio control and analogue / digital communications.</p></article><article class="mini-experience"><div class="mini-brand"><span class="mini-symbol">MATLAB</span><span>SOFTWARE &amp; ANALYSIS</span></div><h3>MATLAB Software Engineer · CSAAE</h3><p>SIWES internship in May 2024, developing MATLAB scripts for numerical computing, data preprocessing, visualisation and mathematical modelling in a six-person team.</p></article></div>
+      <article class="experience-block community-block"><div class="experience-heading"><div><span class="experience-period">2023 — 2025</span><h3>Academic Coordinator &amp; Organising Secretary · SU SchoolGroups, FUTO</h3><p>Peer learning, student activities and academic seminars</p></div><div class="experience-logos"><img src="assets/evidence/powerscope-indexed/19-seles-student-society-logo.png" alt="SELES logo"></div></div><div class="experience-copy"><p>Coordinated peer tutorials and student learning activities for more than 200 students, and organised student activities and workshops. The following images are from the labelled academic-seminar archive.</p></div><div class="gallery-grid gallery-seminars">
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/27-su-schoolgroups-academic-seminar-1.jpg" data-caption="SU SchoolGroups · Academic seminar 1" aria-label="Enlarge: SU SchoolGroups · Academic seminar 1">
+            <img src="assets/evidence/main-indexed/27-su-schoolgroups-academic-seminar-1.jpg" alt="SU SchoolGroups academic seminar stage and panel" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU SchoolGroups · Academic seminar 1</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/28-su-schoolgroups-academic-seminar-2.jpg" data-caption="SU SchoolGroups · Academic seminar 2" aria-label="Enlarge: SU SchoolGroups · Academic seminar 2">
+            <img src="assets/evidence/main-indexed/28-su-schoolgroups-academic-seminar-2.jpg" alt="Okoro seated during an SU SchoolGroups academic seminar" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU SchoolGroups · Academic seminar 2</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/29-su-schoolgroups-academic-seminar-3.jpg" data-caption="SU SchoolGroups · Academic seminar 3" aria-label="Enlarge: SU SchoolGroups · Academic seminar 3">
+            <img src="assets/evidence/main-indexed/29-su-schoolgroups-academic-seminar-3.jpg" alt="SU SchoolGroups academic seminar and participants" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU SchoolGroups · Academic seminar 3</figcaption>
+        </figure>
+</div></article>
+      <div class="academic-milestone"><div><span class="eyebrow">ACADEMIC COMMUNITY / CLASS OF 2026</span><h3>A milestone still in progress.</h3><p>The supplied sash artwork identifies the 2026 graduating class and the B.Eng. Electronic Engineering programme. The CV records expected completion on 5 December 2026.</p></div><div class="milestone-image"><img src="assets/evidence/powerscope-indexed/18-class-of-2026-graduation-sash.jpg" alt="Class of 2026 graduation sash with Engr. Okoro C. N., B.Eng. Electronic Engineering"><img src="assets/evidence/powerscope-indexed/19-seles-student-society-logo.png" alt="Society of Electronic Engineering Students logo"></div></div>
+    </section>
+
+    <section class="section recognition-section" id="recognition">
+      <div class="section-head"><div><p class="eyebrow">05 / AWARDS &amp; RECOGNITION</p><h2>Recognition for <em>building and serving.</em></h2></div><p class="section-aside">The awards are separated by programme and context, with the original photographs kept beside their descriptions.</p></div>
+      <div class="award-highlight"><div class="award-copy"><span class="award-kicker">WINNER · 2022</span><h3>Skill-Up Imo<br><em>Cohort 2</em></h3><p class="award-track">Web Application Development</p><p>Recognised as a Cohort 2 winner in the Web Application Development track. The award included a laptop prize. The photograph shown here is the labelled prize-day image supplied for the portfolio.</p><div class="award-stamps"><span>WEB APP DEVELOPMENT</span><span>COHORT 2</span><span>2022</span></div></div><div class="award-feature-image"><button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/24-skillup-imo-cohort-2-award-photo.jpg" data-caption="Skill-Up Imo Cohort 2 winner and laptop prize photograph"><img src="assets/evidence/main-indexed/24-skillup-imo-cohort-2-award-photo.jpg" alt="Okoro holding the Skill-Up Imo Cohort 2 laptop prize package"><span>OPEN PRIZE-DAY PHOTO ↗</span></button></div></div>
+      <div class="service-award"><div><span class="award-kicker">SERVICE &amp; LEADERSHIP RECOGNITION</span><h3>SU Campus Fellowship / SchoolGroups</h3><p>Service recognition presented at the final-year send-forth ceremony. This record is distinct from the Skill-Up Imo award and documents campus leadership and service.</p></div><div class="service-award-feature"><button class="gallery-open" type="button" data-full="assets/awards/su-schoolgroups-award-presentation-prx.jpg" data-caption="Scripture Union Campus Fellowship plaque and certificate presentation"><img src="assets/awards/su-schoolgroups-award-presentation-prx.jpg" alt="Scripture Union Campus Fellowship plaque and certificate presentation"><span>PLAQUE &amp; CERTIFICATE PRESENTATION ↗</span></button></div></div>
+      <div class="gallery-grid gallery-awards">
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/24-skillup-imo-cohort-2-award-photo.jpg" data-caption="Skill-Up Imo Cohort 2 · Winner and laptop prize photograph" aria-label="Enlarge: Skill-Up Imo Cohort 2 · Winner and laptop prize photograph">
+            <img src="assets/evidence/main-indexed/24-skillup-imo-cohort-2-award-photo.jpg" alt="Okoro holding the Skill-Up Imo Cohort 2 laptop prize package" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Skill-Up Imo Cohort 2 · Winner and laptop prize photograph</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/30-su-schoolgroups-service-award-photo-1.jpg" data-caption="SU SchoolGroups · Service recognition group photograph 1" aria-label="Enlarge: SU SchoolGroups · Service recognition group photograph 1">
+            <img src="assets/evidence/main-indexed/30-su-schoolgroups-service-award-photo-1.jpg" alt="SU SchoolGroups service recognition group photograph" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU SchoolGroups · Service recognition group photograph 1</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/31-su-schoolgroups-service-award-photo-2.jpg" data-caption="SU SchoolGroups · Service recognition presentation" aria-label="Enlarge: SU SchoolGroups · Service recognition presentation">
+            <img src="assets/evidence/main-indexed/31-su-schoolgroups-service-award-photo-2.jpg" alt="SU SchoolGroups service award presentation photograph" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU SchoolGroups · Service recognition presentation</figcaption>
+        </figure>
+<figure class="gallery-item media-photo">
+          <button class="gallery-open" type="button" data-full="assets/awards/su-schoolgroups-award-presentation-prx.jpg" data-caption="SU Campus Fellowship · Plaque and certificate presentation" aria-label="Enlarge: SU Campus Fellowship · Plaque and certificate presentation">
+            <img src="assets/awards/su-schoolgroups-award-presentation-prx.jpg" alt="Scripture Union Campus Fellowship final-year send-forth award presentation with plaque and certificate" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>SU Campus Fellowship · Plaque and certificate presentation</figcaption>
+        </figure>
+</div>
+      <div class="commendation-note"><span>ACADEMIC COMMENDATION</span><p>Departmental Letter of Academic / Character Commendation, Electronic Engineering Department, FUTO — recorded in the current CV.</p><a href="#fieldwork">See academic and service experience ↗</a></div>
+    </section>
+
+    <section class="section credentials-section" id="credentials"><span id="education" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-head"><div><p class="eyebrow">06 / EDUCATION &amp; CREDENTIALS</p><h2>Learning that supports <em>the work.</em></h2></div><p class="section-aside">Course certificates, platform records and course-progress evidence included in the supplied labelled archive.</p></div>
+      <div class="education-panel"><div class="education-brand"><img src="assets/evidence/main-indexed/11-futo-logo.png" alt="FUTO logo"><span>FEDERAL UNIVERSITY OF TECHNOLOGY, OWERRI</span></div><div><span class="eyebrow">BACHELOR OF ENGINEERING</span><h3>Electronic Engineering</h3><p>Expected completion: 5 December 2026 · CGPA: 3.0 / 4.0 · English-medium instruction</p></div><div class="education-details"><span>POWER ELECTRONICS</span><span>CONTROL SYSTEMS</span><span>DIGITAL SIGNAL PROCESSING</span><span>MICROPROCESSOR SYSTEMS</span><span>SEMICONDUCTOR PHYSICS</span><span>CIRCUIT ANALYSIS</span><span>ELECTROMAGNETIC FIELDS</span><span>RELIABILITY &amp; QUALITY ASSURANCE</span></div></div>
+      <div class="gallery-intro"><h3>Certificates &amp; learning records</h3><p>Each image opens at full size. The gallery includes the course evidence supplied in the labelled PDF index; completion dates and validation details are described only where visible in the supporting records.</p></div>
+      <div class="gallery-grid gallery-certificates">
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/01-altium-education-certificate.png" data-caption="Altium Education · Designer curriculum and cumulative examination" aria-label="Enlarge: Altium Education · Designer curriculum and cumulative examination">
+            <img src="assets/evidence/main-indexed/01-altium-education-certificate.png" alt="Altium Education certificate of completion" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Altium Education · Designer curriculum and cumulative examination</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/02-chinese-course-level-1.jpg" data-caption="Chinese language learning · Level 1 course evidence" aria-label="Enlarge: Chinese language learning · Level 1 course evidence">
+            <img src="assets/evidence/main-indexed/02-chinese-course-level-1.jpg" alt="Chinese course Level 1 evidence" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Chinese language learning · Level 1 course evidence</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/03-chinese-course-level-2.jpg" data-caption="Chinese language learning · Level 2 course evidence" aria-label="Enlarge: Chinese language learning · Level 2 course evidence">
+            <img src="assets/evidence/main-indexed/03-chinese-course-level-2.jpg" alt="Chinese course Level 2 evidence" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Chinese language learning · Level 2 course evidence</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/04-arm-cortex-m-coursera.png" data-caption="Arm Education / Coursera · Cortex-M Processors Overview" aria-label="Enlarge: Arm Education / Coursera · Cortex-M Processors Overview">
+            <img src="assets/evidence/main-indexed/04-arm-cortex-m-coursera.png" alt="Arm Cortex-M Processors Overview certificate from Coursera" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Arm Education / Coursera · Cortex-M Processors Overview</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/05-cursa-embedded-c-certificate.png" data-caption="Cursa · Embedded C Programming for Beginners" aria-label="Enlarge: Cursa · Embedded C Programming for Beginners">
+            <img src="assets/evidence/main-indexed/05-cursa-embedded-c-certificate.png" alt="Cursa Embedded C Programming Course for Beginners certificate" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Cursa · Embedded C Programming for Beginners</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/07-embedded-systems-design-completion-screen.png" data-caption="Embedded Systems Design · Course completion evidence" aria-label="Enlarge: Embedded Systems Design · Course completion evidence">
+            <img src="assets/evidence/main-indexed/07-embedded-systems-design-completion-screen.png" alt="Embedded Systems Design course completion screen" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>Embedded Systems Design · Course completion evidence</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/20-mathworks-matlab-certificate.png" data-caption="MathWorks · MATLAB course completion certificate" aria-label="Enlarge: MathWorks · MATLAB course completion certificate">
+            <img src="assets/evidence/main-indexed/20-mathworks-matlab-certificate.png" alt="MathWorks MATLAB course certificate" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>MathWorks · MATLAB course completion certificate</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/21-mathworks-course-evidence.png" data-caption="MathWorks · MATLAB / Simulink learning evidence" aria-label="Enlarge: MathWorks · MATLAB / Simulink learning evidence">
+            <img src="assets/evidence/main-indexed/21-mathworks-course-evidence.png" alt="MathWorks course learning dashboard and completion evidence" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>MathWorks · MATLAB / Simulink learning evidence</figcaption>
+        </figure>
+<figure class="gallery-item media-document">
+          <button class="gallery-open" type="button" data-full="assets/evidence/main-indexed/22-mindluster-rtos-certificate.png" data-caption="MindLuster · Real-Time Operating Systems for Beginners" aria-label="Enlarge: MindLuster · Real-Time Operating Systems for Beginners">
+            <img src="assets/evidence/main-indexed/22-mindluster-rtos-certificate.png" alt="MindLuster Real-Time Operating Systems for Beginners certificate" loading="lazy" decoding="async">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <figcaption>MindLuster · Real-Time Operating Systems for Beginners</figcaption>
+        </figure>
+</div>
+      <div class="credential-text-list"><article><b>01</b><div><strong>Arm Cortex-M Processors Overview</strong><small>Arm Education / Coursera · 6 July 2026 · <a href="https://coursera.org/verify/XN6QVOA7JFD3" target="_blank" rel="noopener">Verify credential ↗</a></small></div></article><article><b>02</b><div><strong>Altium Designer Curriculum &amp; Cumulative Examination</strong><small>Altium Education · Certificate of completion</small></div></article><article><b>03</b><div><strong>Embedded C Programming for Beginners</strong><small>Cursa · 17 h 08 min · 1–4 October 2026</small></div></article><article><b>04</b><div><strong>Real-Time Operating Systems for Beginners</strong><small>MindLuster · 1 hour · 13 June 2026 · Certificate No. 925934e4</small></div></article><article><b>05</b><div><strong>MATLAB and Simulink Onramp</strong><small>MathWorks · completion records listed in the current CV</small></div></article><article><b>06</b><div><strong>Basic Radio Awareness</strong><small>Tait Radio Academy · completion recorded in the current CV</small></div></article><article><b>07</b><div><strong>Chinese language learning</strong><small>Elementary course records included in the supplied image archive</small></div></article></div>
+      <div class="membership-strip"><span>PROFESSIONAL MEMBERSHIP</span><b>IEEE Student Member</b><b>IEEE FUTO Student Branch</b><b>IEEE Signal Processing Society</b><b>IEEE Power Electronics Society</b></div>
+      <div class="learning-programmes"><span class="eyebrow">CURRENT TECHNICAL LEARNING / 2026</span><p>Renesas / Altium Academic Programmes · STMicroelectronics Ecosystem Academy · Texas Instruments Precision Labs. These are presented as current training programmes, not completed certifications.</p></div>
+    </section>
+
+    <section class="section research-output" id="research-output"><span id="research" class="anchor-alias" aria-hidden="true"></span>
+      <div class="section-head section-head-light"><div><p class="eyebrow">07 / PUBLICATIONS &amp; RESEARCH OUTPUT</p><h2>From engineering questions<br>to <em>research questions.</em></h2></div><p class="section-aside">Two October 2026 preprints and one ongoing undergraduate research assistant role give the project work a research context.</p></div>
+      <div class="publication-list"><article><span class="publication-type">FIRST-AUTHOR PREPRINT · OCT 2026</span><h3>A Human-on-the-Loop Cyber-Physical Framework for Fault-Aware Service Restoration in Nigerian Distribution Feeders: Requirements Derived from EEDC Industrial Training</h3><p>Engineering Archive (engRxiv) · DOI: <a href="https://doi.org/10.31224/8498" target="_blank" rel="noopener">10.31224/8498 ↗</a></p><small>Framework and validation protocol; not yet validated on a utility feeder.</small></article><article><span class="publication-type">CO-AUTHORED PREPRINT · OCT 2026</span><h3>PowerScope: Preliminary Design of a Portable Dual-Channel Digital Oscilloscope and Programmable DC Power Supply</h3><p>Engineering Archive (engRxiv) · DOI: <a href="https://doi.org/10.31224/8499" target="_blank" rel="noopener">10.31224/8499 ↗</a></p><small>Preliminary design paper for the undergraduate team instrument project.</small></article></div>
+      <div class="research-assistant-panel"><span class="eyebrow">UNDERGRADUATE RESEARCH ASSISTANT · OCT 2025 — PRESENT</span><h3>Tamper-proof cyber-physical IoT telemetry for regulatory drinking-water quality compliance</h3><p>Department of Electronic Engineering, FUTO · Working paper in preparation · With Prof. G. Chukwudebe, Prof. U. Ezeh and Dr. C. Anyalewechi.</p><p>Contributing to edge sensor acquisition, hardware-level anti-tamper detection and the System Architecture, Hardware Security and Experimental Validation sections of the manuscript.</p></div>
+      <article class="funding-application-panel" id="funding">
+        <div class="funding-application-top">
+          <span class="eyebrow">RESEARCH FUNDING DEVELOPMENT · 2026</span>
+          <span class="funding-status">APPLICATION IN PROGRESS</span>
+        </div>
+        <div class="funding-application-grid">
+          <div class="funding-application-main">
+            <p class="funding-index">HUMAN-ON-THE-LOOP · DISTRIBUTION-FEEDER RESTORATION</p>
+            <h3>Taking the restoration framework from <em>requirements to stronger validation.</em></h3>
+            <p>I am currently applying for research-grant support from <a href="https://acefuels-futo.org/about-us/" target="_blank" rel="noopener">ACE-FUELS at the Federal University of Technology Owerri</a> to further develop my first-author Human-on-the-Loop (HOTL) cyber-physical framework for fault-aware service restoration in Nigerian distribution feeders.</p>
+            <p>The proposed continuation builds on the published framework and the GridPulse-RESTORE testbed: strengthening the restoration model, its local protection and operator-approval logic, and the staged simulation/validation protocol. The research remains at the framework and testbed-development stage; utility-feeder validation has not yet been completed.</p>
           </div>
-          <div class="hero-meta"><span>FUTO · B.Eng. Electronic Engineering · Expected 5 Dec 2026</span><span class="meta-dot"></span><span>CGPA 3.0 / 4.0</span></div>
-          <div class="hero-proofline"><span><b>05</b> FEATURED PROJECTS</span><span><b>02</b> RESEARCH PREPRINTS</span><span><b>01</b> CONNECTED RESEARCH DIRECTION</span></div>
-        </div>
-        <div class="hero-portrait-wrap">
-          <div class="portrait-orbit orbit-one"></div><div class="portrait-orbit orbit-two"></div>
-          <div class="portrait-frame"><img src="assets/images/portrait.jpg" alt="Portrait of Okoro Chukwueloka" fetchpriority="high"></div>
-          <div class="portrait-label"><span class="live-dot"></span><span>OPEN TO MSc RESEARCH OPPORTUNITIES</span></div>
-          <div class="hero-coordinate">OWERRI<br>NIGERIA</div>
-        </div>
-        <div class="hero-bottomline"><span>01 / ENGINEERING PORTFOLIO</span><span>EMBEDDED · INSTRUMENTATION · EDGE SYSTEMS</span><span>FOLLOW THE SIGNAL ↓</span></div>
-      </section>
-
-      <section class="intro-strip" aria-label="Portfolio focus">
-        <div><span class="strip-index">01</span><strong>INSTRUMENTATION</strong><small>Acquire &amp; measure</small></div>
-        <div><span class="strip-index">02</span><strong>EDGE DIAGNOSTICS</strong><small>Process &amp; classify</small></div>
-        <div><span class="strip-index">03</span><strong>CYBER-PHYSICAL SYSTEMS</strong><small>Protect &amp; supervise</small></div>
-        <div><span class="strip-index">04</span><strong>HARDWARE DESIGN</strong><small>Build &amp; verify</small></div>
-      </section>
-
-      <section class="section section-cream" id="about">
-        <div class="section-heading">
-          <div><p class="eyebrow eyebrow-dark">02 / PROFILE</p><h2>An engineer drawn to the <em>whole system.</em></h2></div>
-          <p class="section-kicker">From the sensor pin to the operator dashboard.</p>
-        </div>
-        <div class="about-layout">
-          <div class="about-main">
-            <p class="about-lede">My strongest interest is not a single component or software tool. It is the engineering chain that connects physical behaviour to a reliable decision.</p>
-            <p>I am a final-year B.Eng. Electronic Engineering student at the Federal University of Technology, Owerri (FUTO), with expected graduation on 5 December 2026. My current CGPA is 3.0/4.0. Across my projects, I have worked on microcontroller firmware, measurement front ends, PCB design, digital signal processing, telemetry and monitoring interfaces. I enjoy taking a practical problem apart, defining the signal path, implementing the embedded logic and documenting what has — and has not — been validated.</p>
-            <p>That approach connects my undergraduate instrument project, PowerScope, with VibeGuard’s vibration-monitoring prototype and GridPulse-RESTORE’s fault-aware distribution-network concept. My smaller ESP32-C3 and STM32 board projects add experience in PCB development, component planning and firmware bring-up.</p>
-            <p>I am preparing for postgraduate research in embedded systems, electronic engineering, intelligent systems and control. I am particularly interested in resource-aware edge diagnostics for electrical and industrial assets: how sensing, signal processing and compact inference can improve monitoring while respecting limits in timing, memory, energy and communications.</p>
-          </div>
-          <aside class="about-side">
-            <div class="profile-fact"><span class="fact-label">EDUCATION</span><strong>B.Eng. Electronic Engineering</strong><small>Federal University of Technology, Owerri</small></div>
-            <div class="profile-fact" id="education"><span class="fact-label">CURRENT ACADEMIC STANDING</span><strong>CGPA 3.0 / 4.0</strong><small>B.Eng. expected 5 December 2026 · English-medium instruction</small></div>
-            <div class="profile-fact"><span class="fact-label">TECHNICAL CENTRE</span><strong>Embedded measurement &amp; edge intelligence</strong><small>STM32 · ESP32 · signal processing · cyber-physical systems</small></div>
-            <div class="profile-fact"><span class="fact-label">RESEARCH DIRECTION</span><strong>Reliable edge-side fault diagnostics</strong><small>Electrical networks, industrial monitoring and instrumentation</small></div>
+          <aside class="funding-application-side">
+            <span class="funding-side-label">APPLICATION RECORD</span>
+            <dl>
+              <div><dt>Institution</dt><dd>ACE-FUELS · FUTO, Nigeria</dd></div>
+              <div><dt>Research basis</dt><dd>First-author HOTL preprint · DOI 10.31224/8498</dd></div>
+              <div><dt>Related testbed</dt><dd>GridPulse-RESTORE · 24 V / 50 Hz scaled feeder model</dd></div>
+              <div><dt>Current status</dt><dd>Application in progress · no award claimed</dd></div>
+            </dl>
+            <a class="funding-official-link" href="https://acefuels-futo.org/about-us/" target="_blank" rel="noopener">ACE-FUELS official profile ↗</a>
           </aside>
         </div>
-      </section>
+        <p class="funding-alignment-note"><strong>Research fit:</strong> ACE-FUELS identifies Clean and Future Energy among its core areas. I frame dependable distribution and fault-aware restoration as enabling infrastructure for wider clean-energy deployment. This is a proposed interdisciplinary connection, not a claim of an existing ACE-FUELS partnership or endorsement.</p>
+      </article>
+    </section>
 
-      <section class="section section-graphite" id="approach">
-        <div class="section-heading section-heading-light">
-          <div><p class="eyebrow">03 / ENGINEERING METHOD</p><h2>One signal. <em>Four engineering decisions.</em></h2></div>
-          <p class="section-kicker">The projects differ in scale, but the method stays consistent: understand the physical system, preserve the signal, interpret it responsibly, then make a controlled response.</p>
-        </div>
-        <div class="method-console">
-          <div class="method-console-head"><span class="console-mark"><i></i><i></i><i></i></span><span>ENGINEERING WORKFLOW / INTERACTIVE FIELD NOTES</span><span class="console-state"><b></b> SYSTEM THINKING</span></div>
-          <div class="method-tabs" role="tablist" aria-label="Engineering workflow stages">
-            <button class="method-tab is-active" id="method-tab-01" type="button" role="tab" aria-selected="true" aria-controls="method-panel" data-method="measure"><span>01</span> MEASURE</button>
-            <button class="method-tab" id="method-tab-02" type="button" role="tab" aria-selected="false" aria-controls="method-panel" data-method="interpret"><span>02</span> INTERPRET</button>
-            <button class="method-tab" id="method-tab-03" type="button" role="tab" aria-selected="false" aria-controls="method-panel" data-method="decide"><span>03</span> DECIDE</button>
-            <button class="method-tab" id="method-tab-04" type="button" role="tab" aria-selected="false" aria-controls="method-panel" data-method="act"><span>04</span> ACT</button>
-          </div>
-          <div class="method-panel" id="method-panel" role="tabpanel" aria-labelledby="method-tab-01" tabindex="0">
-            <div class="method-panel-copy"><p class="method-stage">STAGE 01 / MEASUREMENT</p><h3 id="method-heading">Capture the world<br><em>without losing its meaning.</em></h3><p id="method-description">Every useful decision begins with a trustworthy input. I pay attention to sensor interfaces, analogue conditioning, conversion, sampling assumptions and the boundary between a physical signal and its digital representation.</p><a href="#project-powerscope" class="method-project-link">SEE THE INSTRUMENTATION WORK <span>↗</span></a></div>
-            <div class="method-visual" aria-hidden="true"><div class="signal-label">INPUT / CH-01</div><svg viewBox="0 0 520 210" preserveAspectRatio="none"><path class="signal-grid" d="M0 35H520M0 70H520M0 105H520M0 140H520M0 175H520M52 0V210M104 0V210M156 0V210M208 0V210M260 0V210M312 0V210M364 0V210M416 0V210M468 0V210"/><path class="signal-line" d="M0 111 C18 111 18 46 37 46 S56 166 75 166 S94 69 113 69 S132 131 151 131 S170 44 189 44 S208 163 227 163 S246 93 265 93 S284 118 303 118 S322 49 341 49 S360 158 379 158 S398 75 417 75 S436 129 455 129 S474 59 493 59 S510 111 520 111"/></svg><div class="signal-axis"><span>TIME →</span><span>AMPLITUDE ↕</span></div><div class="signal-sample">ADC · BUFFER · CALIBRATE</div></div>
-          </div>
-          <div class="method-console-foot"><span>DESIGN PRINCIPLE</span><strong id="method-principle">A measurement is only useful when its range, timing and uncertainty are understood.</strong><span id="method-projects">POWERSCOPE</span></div>
-        </div>
-        <div class="method-quote"><span>“</span><p>I am interested in the point where electronics, firmware and physical systems stop being separate disciplines—and become one working instrument.</p><small>ENGINEERING POSITION</small></div>
-      </section>
+    <section class="section skills-section" id="skills">
+      <div class="section-head"><div><p class="eyebrow">08 / TECHNICAL TOOLKIT</p><h2>Tools are useful.<br><em>Understanding is the skill.</em></h2></div><p class="section-aside">A practical toolkit that connects embedded firmware, electronics, signal processing and system modelling.</p></div>
+      <div class="skills-grid"><article><span>01 / EMBEDDED</span><h3>Microcontrollers &amp; firmware</h3><p>ARM Cortex-M / STM32, ESP32 / ESP32-S3, ATmega328P, PIC; C and C++; peripheral-level development; UART, SPI, I²C, ADC and DMA; RTOS concepts.</p></article><article><span>02 / HARDWARE</span><h3>Electronic design &amp; PCB</h3><p>Altium Designer, KiCad, Proteus VSM and LTspice; schematic capture, PCB layout, component planning, analogue front ends, relay and driver circuits.</p></article><article><span>03 / SIGNALS &amp; POWER</span><h3>Measurement, DSP &amp; control</h3><p>Data acquisition, signal conditioning, RMS / peak-to-peak analysis, FFT, DWT, filtering, power conversion, protection logic and control systems.</p></article><article><span>04 / SOFTWARE &amp; ML</span><h3>Analysis and edge intelligence</h3><p>Python, MATLAB / Simulink, PlatformIO, Git, LaTeX and Edge Impulse; baseline anomaly detection and constrained edge-classification concepts.</p></article></div>
+    </section>
 
-      <section class="section section-blue" id="projects">
-        <div class="section-heading section-heading-light">
-          <div><p class="eyebrow">03 / SELECTED ENGINEERING WORK</p><h2>Five projects. <em>One connected direction.</em></h2></div>
-          <p class="section-kicker">The central evidence in this portfolio is the work itself: architecture, design decisions, implementation status and next validation steps.</p>
-        </div>
-        <div class="project-toolbar">
-          <p>PROJECT INDEX <span> / 05</span> <small id="project-count">05 PROJECTS VISIBLE</small></p>
-          <div class="project-controls">
-            <label class="project-search"><span class="sr-only">Search projects</span><input type="search" id="project-search" placeholder="Search by project or method…" autocomplete="off"><span aria-hidden="true">⌕</span></label>
-            <div class="project-filters" role="group" aria-label="Filter projects">
-              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work</button>
-              <button class="filter-button" type="button" data-filter="instrumentation" aria-pressed="false">Instrumentation</button>
-              <button class="filter-button" type="button" data-filter="edge" aria-pressed="false">Edge systems</button>
-              <button class="filter-button" type="button" data-filter="hardware" aria-pressed="false">Hardware / PCB</button>
-            </div>
-            <button class="expand-all" id="expand-all" type="button" aria-pressed="false">EXPAND ALL +</button>
-          </div>
-        </div>
-        <div class="project-jump-list" aria-label="Jump to a project"><span>JUMP TO</span><a href="#project-powerscope">01 PowerScope</a><a href="#project-gridpulse">02 GridPulse</a><a href="#project-vibeguard">03 VibeGuard</a><a href="#project-envlogger">04 ESP32-C3</a><a href="#project-bluepill">05 STM32 PCB</a></div>
-        <div class="projects-grid" id="projects-grid" aria-live="polite"></div>
-        <div class="project-note"><span class="note-mark">i</span><p><strong>Evidence policy.</strong> Simulated, calculated, designed and physically measured results are kept distinct. A feature described as planned or partly built is not presented as a completed test.</p></div>
-        <div class="gridpulse-board" aria-label="GridPulse implementation status board">
-          <div class="gridpulse-board-head"><div><p class="eyebrow">GRIDPULSE / BUILD MONITOR</p><h3>A live view of <em>design maturity.</em></h3><p class="board-summary">The current engineering record distinguishes populated schematic blocks from those that are still specified on paper. This is a status summary, not a simulation result.</p></div><div class="board-total"><strong>02<span> + 01</span></strong><small>BUILT<br>+ PARTLY BUILT</small></div></div>
-          <div class="status-track" role="img" aria-label="Two blocks built, one partly built and three designed but not yet implemented"><span class="built"></span><span class="built"></span><span class="partial"></span><span class="designed"></span><span class="designed"></span><span class="designed"></span></div>
-          <div class="status-legend"><span><i class="legend-built"></i> BUILT</span><span><i class="legend-partial"></i> PARTLY BUILT</span><span><i class="legend-designed"></i> DESIGNED / NOT DRAWN</span></div>
-          <div class="gridpulse-blocks">
-            <article class="gridpulse-block built"><span>A1 / SOURCE</span><strong>Source &amp; earthing</strong><small>Built in Proteus</small><p>Input source, transformer taps, neutral earthing path, CT measurement concept and main breaker arrangement.</p></article>
-            <article class="gridpulse-block built"><span>A2 / PLANT</span><strong>Distribution network</strong><small>Built in Proteus</small><p>Three feeder paths, representative loads, sectionalising locations, fault points and DG tie rail.</p></article>
-            <article class="gridpulse-block partial"><span>B1 / SENSING</span><strong>Measurement &amp; protection</strong><small>Partly built</small><p>Voltage conditioning, one current channel, comparator / latch paths and threshold-setting stages.</p></article>
-            <article class="gridpulse-block designed"><span>B2 / CONTROL</span><strong>STM32 control core</strong><small>Design specified</small><p>STM32F103C8T6, SPI I/O expansion, relay-driving plan, clock, reset and event-log architecture.</p></article>
-            <article class="gridpulse-block designed"><span>C1 / GATEWAY</span><strong>ESP32 supervision</strong><small>Design specified</small><p>UART framing, Wi-Fi / MQTT telemetry, operator approval path and supervisory event handling.</p></article>
-            <article class="gridpulse-block designed"><span>C2 / TEST</span><strong>Test bench &amp; security</strong><small>Design specified</small><p>Communications impairment, injected operating cases, interlock verification and degradation testing.</p></article>
-          </div>
-          <p class="board-caveat">No complete closed-loop simulation is claimed in the current build record. Fault currents and trip times remain design calculations until verified in a repeatable simulation or hardware test.</p>
-        </div>
-      </section>
+    <section class="section documents-section" id="documents">
+      <div class="section-head"><div><p class="eyebrow">09 / APPLICATION DOCUMENTS</p><h2>Go beyond the <em>two-page CV.</em></h2></div><p class="section-aside">Concise application documents, with this site serving as the extended evidence record.</p></div>
+      <div class="download-cards"><a href="assets/documents/Okoro_Chukwueloka_CSC_CV.pdf" download><span class="download-icon">PDF</span><strong>Academic CV · PDF</strong><small>Two-page CSC-aligned version · printable</small><b>DOWNLOAD ↓</b></a><a href="assets/documents/Okoro_Chukwueloka_CSC_CV.docx" download><span class="download-icon">DOCX</span><strong>Academic CV · Word</strong><small>Editable Word version</small><b>DOWNLOAD ↓</b></a><a href="docs/Portfolio_Information_Dossier.docx" download><span class="download-icon">DOCX</span><strong>Portfolio Information Dossier</strong><small>Expanded case-study and evidence context</small><b>DOWNLOAD ↓</b></a></div>
+    </section>
 
-      <section class="section section-cream" id="research">
-        <div class="section-heading">
-          <div><p class="eyebrow eyebrow-dark">04 / RESEARCH PROFILE</p><h2>Questions I want to <em>investigate.</em></h2></div>
-          <p class="section-kicker">A focused research agenda that grows naturally from the five engineering projects.</p>
-        </div>
-        <div class="research-grid">
-          <article class="research-card"><span class="research-number">R / 01</span><h3>Resource-aware edge diagnostics</h3><p>How can a small microcontroller distinguish abnormal operating conditions reliably under constraints in compute, memory, energy and sampling rate?</p><div class="research-method">Baseline thresholds · Feature extraction · TinyML · Latency / memory profiling</div></article>
-          <article class="research-card"><span class="research-number">R / 02</span><h3>Embedded instrumentation &amp; signal integrity</h3><p>How should signal conditioning, conversion, sampling, calibration and digital processing be partitioned in compact measurement instruments?</p><div class="research-method">Analogue front ends · ADC architecture · DSP · Calibration / uncertainty</div></article>
-          <article class="research-card"><span class="research-number">R / 03</span><h3>Fault-aware cyber-physical power systems</h3><p>How can local protection, network-level supervision and human approval be coordinated without weakening the authority of independent protection logic?</p><div class="research-method">Feeder models · Protection interlocks · Supervisory control · Safe restoration</div></article>
-          <article class="research-card"><span class="research-number">R / 04</span><h3>Trustworthy sensor telemetry</h3><p>How can distributed sensing systems preserve useful, traceable measurements when communication is intermittent, data quality varies or a monitored asset enters an abnormal state?</p><div class="research-method">Embedded networking · Event logs · Fault handling · Data provenance</div></article>
-        </div>
-        <div class="publication-block">
-          <div class="publication-heading"><p class="eyebrow eyebrow-dark">WRITING &amp; PREPRINTS</p><h3>Research outputs in progress</h3></div>
-          <div class="publication-list">
-            <article><span class="publication-type">PREPRINT · OCT 2026</span><div><h4>A Human-on-the-Loop Cyber-Physical Framework for Fault-Aware Service Restoration in Nigerian Distribution Feeders: Requirements Derived from EEDC Industrial Training</h4><p>Engineering Archive preprint. Connects distribution-network operating context with supervised fault-aware restoration concepts.</p></div><a href="https://doi.org/10.31224/8498" target="_blank" rel="noopener">View DOI ↗</a></article>
-            <article><span class="publication-type">PREPRINT · OCT 2026</span><div><h4>PowerScope: Preliminary Design of a Portable Dual-Channel Digital Oscilloscope and Programmable DC Power Supply</h4><p>Collaborative preliminary design preprint associated with the undergraduate PowerScope project.</p></div><a href="https://doi.org/10.31224/8499" target="_blank" rel="noopener">View DOI ↗</a></article>
-          </div>
-          <p class="preprint-note">These entries are identified as preprints, not peer-reviewed journal publications.</p>
-          <div class="dossier-links"><a class="text-link" href="docs/Portfolio_Information_Dossier.docx" download>Download detailed project dossier (.docx) ↗</a><a class="text-link" href="docs/portfolio-dossier.md">Read the editable dossier (Markdown) ↗</a></div>
-        </div>
-      </section>
-
-      <section class="section section-charcoal" id="experience">
-        <div class="section-heading section-heading-light">
-          <div><p class="eyebrow">05 / EXPERIENCE &amp; LEADERSHIP</p><h2>Engineering context beyond <em>the bench.</em></h2></div>
-          <p class="section-kicker">Practical exposure to distribution operations, communications, academic support and collaborative project delivery.</p>
-        </div>
-        <div class="timeline" id="experience-list"></div>
-        <div class="experience-callout"><div class="callout-icon">↗</div><div><strong>Industry exposure informs the research questions.</strong><p>My EEDC attachment brought me into contact with distribution operations, field safety, maintenance and power-quality troubleshooting. Those experiences provide context for the protection and restoration problems explored in GridPulse-RESTORE and my human-on-the-loop preprint.</p></div></div>
-      </section>
-
-      <section class="section recognition-section" id="recognition">
-        <div class="section-heading">
-          <div><p class="eyebrow eyebrow-dark">06 / AWARDS &amp; RECOGNITION</p><h2>Recognition earned through <em>building and serving.</em></h2></div>
-          <p class="section-kicker">A small record of early software-development achievement, university service and academic contribution.</p>
-        </div>
-        <div class="recognition-grid">
-          <article class="recognition-card skillup-card">
-            <div class="recognition-copy"><span class="recognition-kicker">WINNER · 2022</span><h3>Skill-Up Imo Cohort 2</h3><p class="recognition-award">Web Application Development</p><p>Named a Cohort 2 winner in the Web Application Development track. The award included a laptop, recognising the work completed during the programme.</p><div class="recognition-tags"><span>Web application development</span><span>Digital skills</span><span>2022</span></div></div>
-            <a class="recognition-photo" href="assets/awards/skillup-imo-cohort-2-prize-photo.jpg" target="_blank" rel="noopener"><img src="assets/awards/skillup-imo-cohort-2-prize-photo.jpg" alt="Okoro Chukwueloka in a Skill-Up Imo Cohort 2 shirt with the programme prize package"><span>COHORT 2 · PRIZE-DAY PHOTOGRAPH ↗</span></a>
-          </article>
-          <article class="recognition-card service-card">
-            <div class="recognition-copy"><span class="recognition-kicker">SERVICE &amp; LEADERSHIP</span><h3>SU SchoolGroups / Campus Fellowship</h3><p class="recognition-award">University service recognition</p><p>Alongside academic work, I served as Academic Coordinator and Organising Secretary, coordinating peer tutorials and student activities. The supplied ceremony photograph records a service recognition presented at the final-year send-forth.</p><div class="recognition-tags"><span>Peer learning</span><span>Student leadership</span><span>FUTO</span></div></div>
-            <div class="recognition-photo-set">
-              <a class="recognition-photo recognition-photo-wide" href="assets/awards/su-schoolgroups-award-group.jpg" target="_blank" rel="noopener"><img src="assets/awards/su-schoolgroups-award-group.jpg" alt="Okoro Chukwueloka receiving a Scripture Union Campus Fellowship recognition plaque and certificate at the send-forth ceremony"><span>AWARD PRESENTATION · PLAQUE &amp; CERTIFICATE ↗</span></a>
-              <div class="recognition-secondary-photos">
-                <a href="assets/awards/su-schoolgroups-sendforth-team.jpg" target="_blank" rel="noopener"><img src="assets/awards/su-schoolgroups-sendforth-team.jpg" alt="SU SchoolGroups final-year send-forth team photograph"><span>TEAM PHOTOGRAPH ↗</span></a>
-                <a href="assets/awards/su-schoolgroups-service-recognition.jpg" target="_blank" rel="noopener"><img src="assets/awards/su-schoolgroups-service-recognition.jpg" alt="SU SchoolGroups service award presentation photograph"><span>RECOGNITION RECORD ↗</span></a>
-              </div>
-            </div>
-          </article>
-          <article class="recognition-note-card"><span class="recognition-kicker">ACADEMIC COMMENDATION</span><h3>Departmental Letter of Academic / Character Commendation</h3><p>Recorded in my CV under honours and service, in recognition of academic-assistant duties and departmental support.</p><a href="#experience" class="text-link">See academic-assistant experience ↗</a></article>
-        </div>
-      </section>
-
-      <section class="section section-cream" id="credentials">
-        <div class="section-heading">
-          <div><p class="eyebrow eyebrow-dark">07 / EDUCATION &amp; CREDENTIALS</p><h2>Learning through <em>formal study and practice.</em></h2></div>
-          <p class="section-kicker">Certificates and professional learning relevant to embedded software, processors, PCB design and real-time systems.</p>
-        </div>
-        <div class="education-card" id="education-card">
-          <div class="education-mark">FUTO</div><div><span class="fact-label">EXPECTED 5 DECEMBER 2026 · UNDERGRADUATE DEGREE</span><h3>Bachelor of Engineering in Electronic Engineering</h3><p>Federal University of Technology, Owerri, Nigeria · CGPA 3.0 / 4.0</p><small>Relevant academic areas: power electronics, control systems, digital signal processing, microprocessor systems, circuit analysis, semiconductor physics and reliability engineering.</small></div>
-        </div>
-        <div class="credentials-grid" id="credentials-grid"></div>
-        <div class="certificate-gallery">
-          <div class="certificate-gallery-heading"><div><p class="eyebrow eyebrow-dark">DOCUMENTED CERTIFICATES</p><h3>Certificate previews</h3></div><p>Original scans are included in the site bundle for reviewer inspection.</p></div>
-          <div class="certificate-preview-grid">
-            <a class="certificate-preview" href="assets/certificates/cursa-embedded-c-certificate.png" target="_blank" rel="noopener"><img src="assets/certificates/cursa-embedded-c-certificate.png" alt="Cursa certificate for Embedded C Programming Course for beginners"><span><strong>Embedded C Programming for Beginners</strong><small>Cursa · 17 h 08 min · 1–4 October 2026</small></span><b aria-hidden="true">↗</b></a>
-            <a class="certificate-preview" href="assets/certificates/mindluster-rtos-certificate.pdf" target="_blank" rel="noopener"><img src="assets/certificates/mindluster-rtos-certificate.png" alt="MindLuster certificate for Real time operating systems for beginners"><span><strong>Real-Time Operating Systems for Beginners</strong><small>MindLuster · 1 hour · 13 June 2026</small></span><b aria-hidden="true">↗</b></a>
-          </div>
-        </div>
-        <div class="membership-row"><span class="fact-label">PROFESSIONAL AFFILIATIONS</span><div><span>IEEE Student Member</span><span>IEEE Signal Processing Society</span><span>IEEE Power Electronics Society</span></div></div>
-      </section>
-
-      <section class="section section-blue skills-section" id="skills">
-        <div class="section-heading section-heading-light">
-          <div><p class="eyebrow">08 / TECHNICAL TOOLKIT</p><h2>Tools I use to <em>make systems work.</em></h2></div>
-          <p class="section-kicker">A working toolkit across firmware, electronics, measurement, data and collaborative development.</p>
-        </div>
-        <div class="skills-grid">
-          <article><span class="skill-index">01</span><h3>Embedded platforms</h3><p>STM32 / ARM Cortex-M · ESP32 / ESP32-S3 / ESP32-C3 · ATmega / AVR · PIC microcontrollers</p><div class="skill-tags"><span>C</span><span>C++</span><span>UART</span><span>I²C</span><span>SPI</span><span>GPIO / ADC</span></div></article>
-          <article><span class="skill-index">02</span><h3>Electronics &amp; PCB</h3><p>KiCad · Altium Designer · Proteus VSM · LTspice · schematic capture · PCB layout · BOM preparation</p><div class="skill-tags"><span>PCB design</span><span>Hardware debugging</span><span>Analog front ends</span></div></article>
-          <article><span class="skill-index">03</span><h3>Signal processing &amp; edge systems</h3><p>RMS / peak-to-peak measurement · FFT / DWT feature concepts · sensor acquisition · anomaly thresholds · Edge Impulse</p><div class="skill-tags"><span>DSP</span><span>Sensor fusion</span><span>TinyML concepts</span></div></article>
-          <article><span class="skill-index">04</span><h3>Software, modelling &amp; data</h3><p>Python · Streamlit · Pandas · MATLAB · Simulink · PlatformIO · Git / GitHub · LaTeX</p><div class="skill-tags"><span>Data logging</span><span>Visualisation</span><span>Simulation</span><span>Documentation</span></div></article>
-        </div>
-        <p class="skills-footnote">The listed technologies reflect tools and methods appearing in the project repositories, project report and academic CV. Proficiency varies by tool and project; no unsupported expert-level rating is implied.</p>
-      </section>
-
-      <section class="section section-cream contact-section" id="contact">
-        <div class="contact-panel">
-          <div><p class="eyebrow eyebrow-dark">09 / CONTACT</p><h2>Let’s discuss a <em>research problem.</em></h2><p class="contact-lede">I welcome conversations about MSc supervision, embedded systems research, instrumentation, edge diagnostics and technically grounded collaboration.</p></div>
-          <div class="contact-connect-stack">
-            <div class="contact-links">
-              <a href="mailto:okoro.eloka.researcher@outlook.com"><span>PERSONAL EMAIL</span><strong>okoro.eloka.researcher@outlook.com</strong><b>↗</b></a>
-              <a href="mailto:okorochukwueloka.20211279873@futo.edu.ng"><span>FUTO EMAIL</span><strong>okorochukwueloka.20211279873@futo.edu.ng</strong><b>↗</b></a>
-              <a href="https://www.linkedin.com/in/eloka-okoro/" target="_blank" rel="noopener"><span>LINKEDIN</span><strong>eloka-okoro</strong><b>↗</b></a>
-              <a href="https://github.com/okoroeloka5-hue" target="_blank" rel="noopener"><span>GITHUB</span><strong>okoroeloka5-hue</strong><b>↗</b></a>
-              <a href="https://orcid.org/0009-0004-0161-0449" target="_blank" rel="noopener"><span>ORCID</span><strong>0009-0004-0161-0449</strong><b>↗</b></a>
-            </div>
-            <div class="wechat-contact-card"><div><span class="recognition-kicker">WECHAT</span><h3>Connect on WeChat</h3><p>Scan this personal QR code to add me as a friend.</p><strong>Display name: okoro Chukwueloka</strong></div><a href="assets/images/wechat-qr.png" target="_blank" rel="noopener"><img src="assets/images/wechat-qr.png" alt="Personal WeChat QR code for okoro Chukwueloka"><span>OPEN QR IMAGE ↗</span></a></div>
-          </div>
-        </div>
-        <div class="contact-bottom"><span>BASED IN NIGERIA · AVAILABLE FOR INTERNATIONAL MSc RESEARCH</span><a href="#top">BACK TO TOP ↑</a></div>
-      </section>
-    </main>
-
-    <aside class="chapter-rail" aria-label="Page sections">
-      <span class="chapter-rail-label">ON THIS PAGE</span>
-      <a href="#about" aria-label="Profile" data-rail="about"><span>01</span><i>Profile</i></a>
-      <a href="#approach" aria-label="Engineering method" data-rail="approach"><span>02</span><i>Method</i></a>
-      <a href="#projects" aria-label="Projects" data-rail="projects"><span>03</span><i>Projects</i></a>
-      <a href="#research" aria-label="Research" data-rail="research"><span>04</span><i>Research</i></a>
-      <a href="#experience" aria-label="Experience" data-rail="experience"><span>05</span><i>Experience</i></a>
-      <a href="#recognition" aria-label="Awards and recognition" data-rail="recognition"><span>06</span><i>Awards</i></a>
-      <a href="#credentials" aria-label="Credentials" data-rail="credentials"><span>07</span><i>Credentials</i></a>
-      <a href="#skills" aria-label="Skills" data-rail="skills"><span>08</span><i>Toolkit</i></a>
-      <a href="#contact" aria-label="Contact" data-rail="contact"><span>09</span><i>Contact</i></a>
-    </aside>
-    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
-    <div class="interaction-toast" id="interaction-toast" role="status" aria-live="polite"></div>
-    <footer class="site-footer"><a class="wordmark" href="#top"><span class="wordmark-mark">OC</span><span>OKORO CHUKWUELOKA</span></a><p>Electronic Engineering · Embedded Systems · Edge Intelligence</p><small>© <span id="current-year">2026</span> Okoro Chukwueloka. Built as an editable static website.</small></footer>
-  </div>
-</body>
-</html>
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel"><div><p class="eyebrow">10 / CONTACT</p><h2>Let’s discuss a <em>research problem.</em></h2><p>I welcome conversations about MSc supervision, embedded systems, electronic instrumentation, edge diagnostics, cyber-physical power systems and technically grounded research collaboration.</p><div class="contact-profile-meta"><span>OWERRI / NIGERIA</span><span>OPEN TO INTERNATIONAL MSc RESEARCH</span></div></div><div class="contact-details"><a href="mailto:okoro.chukwueloka.20211279873@futo.edu.ng"><span>INSTITUTIONAL EMAIL</span><strong>okoro.chukwueloka.20211279873@futo.edu.ng</strong><b>↗</b></a><a href="mailto:okoro.eloka.researcher@outlook.com"><span>PERSONAL EMAIL</span><strong>okoro.eloka.researcher@outlook.com</strong><b>↗</b></a><a href="https://www.linkedin.com/in/eloka-okoro/" target="_blank" rel="noopener"><span>LINKEDIN</span><strong>eloka-okoro</strong><b>↗</b></a><a href="https://github.com/okoroeloka5-hue" target="_blank" rel="noopener"><span>GITHUB</span><strong>okoroeloka5-hue</strong><b>↗</b></a><a href="tel:+2348133350773"><span>PHONE</span><strong>+234 813 335 0773</strong><b>↗</b></a></div></div>
+      <div class="wechat-panel"><div><span class="eyebrow">CHINA-READY CONTACT</span><h3>Connect on WeChat.</h3><p>Scan the personal QR code to add me. Display name: <strong>okoro Chukwueloka</strong>.</p><small>For prospective supervisors, collaborators and academic contacts.</small></div><a href="assets/images/wechat-qr.png" target="_blank" rel="noopener"><img src="assets/images/wechat-qr.png" alt="Personal WeChat QR code for okoro Chukwueloka"><span>OPEN / SCAN QR ↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="#top"><span class="brand-symbol">OC<span>+</span></span><span class="brand-text">OKORO CHUKWUELOKA<small>ENGINEERING · RESEARCH · SYSTEMS</small></span></a><p>© <span id="current-year">2026</span> Okoro Chukwueloka · Built around evidence, not claims.</p><a href="#top">BACK TO TOP ↑</a></footer>
+  <button class="back-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <dialog class="lightbox" id="lightbox"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img id="lightbox-image" src="" alt=""><p id="lightbox-caption"></p></dialog>
+  <script src="script.js" defer></script>
+</body></html>

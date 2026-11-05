@@ -1,0 +1,19 @@
+OKORO CHUKWUELOKA — FINAL ENGINEERING PORTFOLIO PACKAGE
+
+THIS ZIP IS THE WEBSITE PACKAGE.
+
+To preview the actual photo-rich website: open preview.html or index.html in Chrome.
+To publish/update GitHub Pages: upload ALL CONTENTS of this folder to the ROOT of your repository okoroeloka5-hue.github.io. Keep the assets/ and docs/ folders intact.
+
+The 60 labelled photographs/graphics are in:
+- assets/evidence/main-indexed/ (41 items)
+- assets/evidence/powerscope-indexed/ (19 items)
+They are placed into the website galleries and project sections. Other supporting profile/certificate/award and document images are also included.
+
+IMPORTANT DISTINCTION:
+- preview.html / index.html = actual website with image galleries.
+- docs/Portfolio_Information_Dossier_ACEFUELS_Updated.pdf = separate text-focused research dossier, not the website.
+- assets/documents/ = updated CV files and supporting PDF documents.
+
+Your site address: https://okoroeloka5-hue.github.io/
+Repository: https://github.com/okoroeloka5-hue/okoroeloka5-hue.github.io
